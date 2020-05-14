@@ -1,5 +1,5 @@
 name: covid_buster_lite
-description: A new Flutter project.
+description: A series of quizzes of different health topics to test your self about covid knowledge.
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1

@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:covid_buster_lite/logic/models/topic.dart';
+import 'package:covid_buster_lite/services/common/utils.dart';
 import 'package:covid_buster_lite/services/storage/storage_service.dart';
 import 'package:flutter/services.dart';
 
@@ -17,7 +18,7 @@ class StorageServiceImpl implements StorageService {
   Future<List<Topic>> getTopics() async {
     String data = await rootBundle.loadString('assets/quizzes.json');
 
-    List<Topic> topics = _deserializeTopics(data);
+    List<Topic> topics = deserializeTopics(data);
     return Future<List<Topic>>.value(topics);
   }
 
@@ -37,18 +38,5 @@ class StorageServiceImpl implements StorageService {
   Future<bool> isExpiredCache() {
     // TODO: implement isExpiredCache
     //throw UnimplementedError();
-  }
-
-  List<Topic> _fromJson(List<dynamic> data) {
-    List<Topic> topics = new List();
-    topics = data.map((e) => Topic.fromMap(e)).toList();
-    return topics;
-  }
-
-  List<Topic> _deserializeTopics(String data) {
-    List<Topic> topics = new List();
-    final jsonData = json.decode(data);
-    topics = _fromJson(jsonData);
-    return topics;
   }
 }

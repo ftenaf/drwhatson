@@ -1,0 +1,245 @@
+[
+  {
+    "id": "0",
+    "title": "Covid",
+    "description": "Should I stay or should I go",
+    "img": "covid.png",
+    "version": 0,
+    "quizzes": [
+      {
+        "id": "0",
+        "title": "GPS",
+        "description": "Should I stay?",
+        "topic": "Covid",
+        "version": 0,
+        "results": [
+          {
+            "formula": "x > 5 && x < 10",
+            "result":"Adelante con el cambio de fase"
+          },
+          {
+            "formula":"x < 5",
+            "result": " Una semana de demora"
+          },
+          {
+            "formula":"x < 0",
+            "result":"Por debajo de 0 -> Una fase de demora"
+          }
+        ],
+        "questions": [
+          {
+            "id": "6",
+            "question": "Por cada persona que nos diga de primera mano que ha llamado con síntomas y no le han cogido el teléfono o hecho el test.",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "0",
+                "detail": "",
+                "correct": true,
+                "tipo": "number",
+                "min": 0,
+                "max": 10,
+                "formula": "x*-1"
+              }
+            ]
+          },
+          {
+            "id": "0",
+            "question": "No se publican nº test PCR realizado sal día (o >3 días demora)",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Si",
+                "detail": "",
+                "correct": true,
+                "points": 0
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": -2
+              }
+            ]
+          },
+          {
+            "id": "1",
+            "question": "No se publican el nº técnicos contratados/empleados para trazar casos",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Si",
+                "detail": "",
+                "correct": true,
+                "points": 0
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": -1
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "question": "No se publican los tiempos entre síntomas y confirmación/aislamiento",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Si",
+                "detail": "",
+                "correct": true,
+                "points": 0
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": -1
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "question": "Test al día positivos > x% del total realizados",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "5",
+                "detail": "",
+                "correct": true,
+                "points": -1
+              },
+              {
+                "id": "1",
+                "value": "10",
+                "detail": "",
+                "correct": true,
+                "points": -2
+              }
+            ]
+          },
+          {
+            "id": "4",
+            "question": "Tiempo entre inicio síntomas y confirmación >3 días",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Si",
+                "detail": "",
+                "correct": true,
+                "points": 0
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": -2
+              }
+            ]
+          },
+          {
+            "id": "5",
+            "question": "Tiempo entre inicio síntomas y confirmación > 3 días",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Si",
+                "detail": "",
+                "correct": true,
+                "points": 0
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "title": "GPS 2",
+        "description": "Should I stay 2",
+        "topic": "Covid",
+        "questions": [
+          {
+            "id": "100",
+            "question": "No se publican nº test PCR realizado sal día (o >3 días demora)",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Si",
+                "detail": "",
+                "correct": true,
+                "points": 0
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": -2
+              }
+            ]
+          },
+          {
+            "id": "101",
+            "question": "No se publican nº test PCR realizado sal día (o >3 días demora)",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Si",
+                "detail": "",
+                "correct": true,
+                "points": 1
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": -3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "title": "Comorbilidad",
+    "description": "Riesgo que tengo",
+    "topic": "Personal",
+    "quizzes": [
+      {
+        "id": "2",
+        "question": "No se publican nº test PCR realizado sal día (o >3 días demora)",
+        "topic": "Fiabilidad del seguimiento de la epidemia"
+      }
+    ]
+  }
+]

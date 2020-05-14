@@ -1,4 +1,5 @@
 import 'package:covid_buster_lite/services/service_locator.dart';
+import 'package:covid_buster_lite/ui/views/about_screen.dart';
 import 'package:covid_buster_lite/ui/views/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => TopicsScreen(),
         '/topics': (context) => TopicsScreen(),
+        '/about': (context) => AboutScreen(),
       },
       // Theme
       theme: ThemeData(

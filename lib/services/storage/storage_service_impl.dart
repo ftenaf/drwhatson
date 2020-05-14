@@ -1,4 +1,4 @@
-import 'dart:convert';
+import 'dart:developer';
 
 import 'package:covid_buster_lite/logic/models/topic.dart';
 import 'package:covid_buster_lite/services/common/utils.dart';
@@ -15,8 +15,9 @@ class StorageServiceImpl implements StorageService {
   }
 
   @override
-  Future<List<Topic>> getTopics() async {
-    String data = await rootBundle.loadString('assets/quizzes.json');
+  Future<List<Topic>> getTopics(String locale) async {
+    String data =
+        await rootBundle.loadString('assets/data/quizzes_$locale.json');
 
     List<Topic> topics = deserializeTopics(data);
     return Future<List<Topic>>.value(topics);

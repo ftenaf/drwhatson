@@ -19,7 +19,7 @@ class AboutScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(title: Text('about'), backgroundColor: Colors.blue),
         body: FutureBuilder(
-            future: rootBundle.loadString("assets/about.md"),
+            future: rootBundle.loadString("assets/data/about.md"),
             builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
               if (snapshot.hasData) {
                 return Markdown(

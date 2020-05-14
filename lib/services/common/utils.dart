@@ -1,4 +1,5 @@
 import 'dart:convert';
+
 import 'package:covid_buster_lite/logic/models/topic.dart';
 
 List<Topic> _topicsFromJson(List<dynamic> data) {

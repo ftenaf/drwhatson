@@ -9,10 +9,10 @@ class TopicServiceImpl implements TopicService {
   StorageService _storageService = serviceLocator<StorageService>();
 
   @override
-  Future<List<Topic>> getAllTopics() async {
-    List<Topic> topics = await _apiService.fetchTopics();
+  Future<List<Topic>> getAllTopics(String locale) async {
+    List<Topic> topics = await _apiService.fetchTopics(locale);
     if (topics == null) {
-      topics = await _storageService.getTopics();
+      topics = await _storageService.getTopics(locale);
     } else {
       //TODO detect version changes among storaged and online versions
     }

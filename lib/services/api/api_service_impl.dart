@@ -8,7 +8,8 @@ import 'package:covid_buster_lite/services/common/utils.dart';
 
 class ApiServiceImpl implements ApiService {
   @override
-  Future<List<Topic>> fetchTopics() async {
+  Future<List<Topic>> fetchTopics(String locale) async {
+    //TODO get locale file
     String url =
         'https://raw.githubusercontent.com/ftenaf/covid_buster_lite/master/assets/quizzes.json?token=AADNMWSAPN24PSPZS3NDYIS6XVXXS';
     final response = await http.get(url);

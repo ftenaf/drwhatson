@@ -5,6 +5,8 @@
     "description": "Should I stay or should I go",
     "img": "covid.png",
     "version": 0,
+    "date":"",
+    "changelog":"",
     "quizzes": [
       {
         "id": "0",
@@ -15,22 +17,22 @@
         "results": [
           {
             "formula": "x > 5 && x < 10",
-            "result":"Adelante con el cambio de fase"
+            "result": "Go ahead with the phase change"
           },
           {
-            "formula":"x < 5",
-            "result": " Una semana de demora"
+            "formula": "x < 5",
+            "result": "One week late"
           },
           {
-            "formula":"x < 0",
-            "result":"Por debajo de 0 -> Una fase de demora"
+            "formula": "x < 0",
+            "result": "Below 0 -> One phase delay"
           }
         ],
         "questions": [
           {
             "id": "6",
-            "question": "Por cada persona que nos diga de primera mano que ha llamado con síntomas y no le han cogido el teléfono o hecho el test.",
-            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "question": "For every person who tells us first-hand that they've called in with symptoms and haven't picked up the phone or taken the test.",
+            "topic": "Reliability of tracking the epidemic.",
             "video": "",
             "answers": [
               {
@@ -38,7 +40,7 @@
                 "value": "0",
                 "detail": "",
                 "correct": true,
-                "tipo": "number",
+                "type": "number",
                 "min": 0,
                 "max": 10,
                 "formula": "x*-1"
@@ -47,12 +49,12 @@
           },
           {
             "id": "0",
-            "question": "No se publican nº test PCR realizado sal día (o >3 días demora)",
-            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "question": "No PCR test performed on this day (or >3 days late) is published",
+            "topic": "Reliability of monitoring the epidemic",
             "answers": [
               {
                 "id": "0",
-                "value": "Si",
+                "value": "Yes",
                 "detail": "",
                 "correct": true,
                 "points": 0
@@ -68,13 +70,13 @@
           },
           {
             "id": "1",
-            "question": "No se publican el nº técnicos contratados/empleados para trazar casos",
-            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "question": "The number of technicians contracted/employed to draw up cases is not published",
+            "topic": "Reliability of monitoring the epidemic",
             "video": "",
             "answers": [
               {
                 "id": "0",
-                "value": "Si",
+                "value": "Yes",
                 "detail": "",
                 "correct": true,
                 "points": 0
@@ -90,13 +92,13 @@
           },
           {
             "id": "2",
-            "question": "No se publican los tiempos entre síntomas y confirmación/aislamiento",
-            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "question": "No published times between symptoms and confirmation/isolation.",
+            "topic": "Reliability of monitoring the epidemic",
             "video": "",
             "answers": [
               {
                 "id": "0",
-                "value": "Si",
+                "value": "Yes",
                 "detail": "",
                 "correct": true,
                 "points": 0
@@ -112,8 +114,8 @@
           },
           {
             "id": "3",
-            "question": "Test al día positivos > x% del total realizados",
-            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "question": "Test per day positive > x% of total performed",
+            "topic": "Reliability of monitoring the epidemic",
             "video": "",
             "answers": [
               {
@@ -134,13 +136,13 @@
           },
           {
             "id": "4",
-            "question": "Tiempo entre inicio síntomas y confirmación >3 días",
-            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "question": "Time between onset of symptoms and confirmation >3 days.",
+            "topic": "Reliability of monitoring the epidemic",
             "video": "",
             "answers": [
               {
                 "id": "0",
-                "value": "Si",
+                "value": "Yes",
                 "detail": "",
                 "correct": true,
                 "points": 0
@@ -156,12 +158,12 @@
           },
           {
             "id": "5",
-            "question": "Tiempo entre inicio síntomas y confirmación > 3 días",
-            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "question": "Time between onset of symptoms and confirmation > 3 days.",
+            "topic": "Reliability of monitoring the epidemic",
             "answers": [
               {
                 "id": "0",
-                "value": "Si",
+                "value": "Yes",
                 "detail": "",
                 "correct": true,
                 "points": 0

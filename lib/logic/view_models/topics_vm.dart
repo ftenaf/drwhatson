@@ -8,20 +8,20 @@ class TopicsViewModel extends ChangeNotifier {
   final TopicService _service = serviceLocator<TopicService>();
   List<Topic> _topics = [];
 
-  void loadData() async {
-    await _loadTopics();
+  void loadData(String locale) async {
+    await _loadTopics(locale);
     notifyListeners();
   }
 
-  Future<List<Topic>> getTopics() async {
-    return await _service.getAllTopics();
+  Future<List<Topic>> getTopics(String locale) async {
+    return await _service.getAllTopics(locale);
   }
 
   List<Topic> get topics {
     return _topics;
   }
 
-  Future<void> _loadTopics() async {
-    _topics = await _service.getAllTopics();
+  Future<void> _loadTopics(String locale) async {
+    _topics = await _service.getAllTopics(locale);
   }
 }

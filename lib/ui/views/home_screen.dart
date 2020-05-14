@@ -5,6 +5,7 @@ import 'package:covid_buster_lite/ui/common/bottom.dart';
 import 'package:covid_buster_lite/ui/widgets/topic_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:easy_localization/easy_localization.dart';
 
 class TopicsScreen extends StatefulWidget {
   @override
@@ -17,22 +18,23 @@ class _TopicsScreenState extends State<TopicsScreen> {
 
   @override
   void initState() {
-    topics = model.getTopics();
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
+    topics = model.getTopics(EasyLocalization.of(context).locale.toString());
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
         backgroundColor: Colors.deepPurple,
-        title: Text('Topics'),
+        title: Text("homePage.topics".tr()),
         actions: [
           IconButton(
             icon: Icon(Icons.refresh, color: Colors.pink[200]),
             onPressed: () {
-              var _topics = model.getTopics();
+              var _topics = model
+                  .getTopics(EasyLocalization.of(context).locale.toString());
               setState(() {
                 topics = _topics;
               });

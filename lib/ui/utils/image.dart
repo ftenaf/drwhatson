@@ -10,7 +10,7 @@ Widget getImage(String url, BuildContext context, BoxFit fit) {
     );
   } else if (!url.startsWith('http')) {
     return Image.asset(
-      'assets/$url',
+      'assets/img/$url',
       fit: BoxFit.contain,
     );
   } else {

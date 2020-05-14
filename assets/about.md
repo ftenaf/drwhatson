@@ -1,3 +1,4 @@
+---
 # Advertencia
 Esta aproximación es solo un marco de reﬂexión para analizar con cuánta prudencia o demora podemos adaptar las medidas generales a nuestro riesgo individual. 
 
@@ -8,3 +9,6 @@ Estas reﬂexiones no sustituyen a un consejo médico, si tienes una patología 
 Quizá te parezcan que son recomendaciones excesivamente prudentes… En mi experiencia no lo son: la recomendación de ir 1-2 semanas por detrás no es tan agresiva y con todo lo que queda por conocer, si he de pecar de algo, será de prudente. 
 
 Y será por tu bien.
+
+[Resumen de la situación](https://www.notion.so/Semana-4-10-Mayo-fccb02e9641b496a81e59350fa9c15f7)
+---

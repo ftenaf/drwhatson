@@ -1,5 +1,5 @@
----
 # Advertencia
+
 Esta aproximación es solo un marco de reﬂexión para analizar con cuánta prudencia o demora podemos adaptar las medidas generales a nuestro riesgo individual. 
 
 Los factores de riesgo están extraídos de los estudios hasta la fecha con COVID-19 y de la ﬁsiopatología conocida de factores de riesgo para infecciones graves virales, y en concreto para SARS-CoV-2. 
@@ -11,4 +11,3 @@ Quizá te parezcan que son recomendaciones excesivamente prudentes… En mi expe
 Y será por tu bien.
 
 [Resumen de la situación](https://www.notion.so/Semana-4-10-Mayo-fccb02e9641b496a81e59350fa9c15f7)
----

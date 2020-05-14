@@ -1,5 +1,6 @@
 import 'package:covid_buster_lite/logic/models/topic.dart';
 import 'package:covid_buster_lite/ui/utils/image.dart';
+import 'package:covid_buster_lite/ui/views/topic_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -16,6 +17,13 @@ class TopicTile extends StatelessWidget {
         child: Card(
           clipBehavior: Clip.antiAlias,
           child: InkWell(
+            onTap: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (BuildContext context) => TopicScreen(topic: topic),
+                ),
+              );
+            },
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.spaceBetween,

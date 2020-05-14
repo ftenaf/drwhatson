@@ -1,0 +1,52 @@
+<mxfile host="localhost" modified="2020-05-14T16:11:42.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code-Insiders/1.46.0-insider Chrome/78.0.3904.130 Electron/7.2.4 Safari/537.36" etag="YpvFG1cpzqJrMe4f0t7M" version="13.0.9">
+    <diagram id="Ap3nSG7JiYRetbxoKezD" name="Page-1">
+        <mxGraphModel dx="758" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Topic" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="70" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Quiz" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="70" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Question" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="70" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Answer" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="200" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Answer" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="70" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2">
+                    <mxGeometry x="-1" y="3" relative="1" as="geometry">
+                        <mxPoint x="380" y="390" as="sourcePoint"/>
+                        <mxPoint x="220" y="95" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry x="-1" y="3" relative="1" as="geometry">
+                        <mxPoint x="330" y="94.66" as="sourcePoint"/>
+                        <mxPoint x="380" y="94.66" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="7">
+                    <mxGeometry x="-1" y="3" relative="1" as="geometry">
+                        <mxPoint x="440" y="140" as="sourcePoint"/>
+                        <mxPoint x="600" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Results" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="200" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="16" source="3">
+                    <mxGeometry x="-1" y="3" relative="1" as="geometry">
+                        <mxPoint x="275" y="120" as="sourcePoint"/>
+                        <mxPoint x="440" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,8 +1,20 @@
 {
   "homePage": {
     "appBarTitle": "Home Page",
-    "topics": "Hello",
+    "hello": "Welcome",
+    "topics": "Topics",
+    "about": "About",
+    "profile": "Profile",
     "selectLanguage": "Select Language",
     "dialogTitleSelectLanguage": "Select Language"
+  },
+  "quiz":{
+    "start": "Start Quiz!",
+    "congrats": "Congrats! You completed the {title} quiz with {totalPoints} points {result}",
+    "right": "Good Job!",
+    "wrong": "Wrong",
+    "markcompleted": " Mark Complete!",
+    "onward": "Onward!",
+    "tryagain": "Try Again"
   }
 }

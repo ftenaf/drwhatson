@@ -73,7 +73,7 @@ class Answer {
   String detail;
   String formula;
   bool correct;
-  String tipo;
+  String type;
   int min;
   int max;
   int points;
@@ -87,7 +87,7 @@ class Answer {
     correct = data['correct'];
     points = data['points'];
     formula = data['formula'];
-    tipo = data['tipo'];
+    type = data['type'];
     min = data['min'];
     max = data['max'];
   }

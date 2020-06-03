@@ -1,8 +1,20 @@
 {
     "homePage": {
       "appBarTitle": "Covid Buster",
+      "hello": "Bienvenido",
       "topics": "Temas",
+      "about": "Acerca de",
+      "profile": "Perfil",
       "selectLanguage": "Seleccione su idioma",
       "dialogTitleSelectLanguage": "Seleccione su idioma"
+    },
+    "quiz":{
+      "start": "Empezar!",
+      "congrats": "Enhorabuena! Has completado el test {title} con un total de {totalPoints} puntos: {result}",
+      "right": "Correcto!",
+      "wrong": "Error",
+      "markcompleted": " Marcar Finalizado!",
+      "onward": "Adelante!",
+      "tryagain": "Intentalo de nuevo"
     }
   }

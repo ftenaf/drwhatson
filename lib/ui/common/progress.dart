@@ -4,8 +4,7 @@ class AnimatedProgressbar extends StatelessWidget {
   final double value;
   final double height;
 
-  AnimatedProgressbar({Key key, @required this.value, this.height = 12})
-      : super(key: key);
+  AnimatedProgressbar({Key key, @required this.value, this.height = 12}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -44,7 +43,6 @@ class AnimatedProgressbar extends StatelessWidget {
     );
   }
 
-  /// Always round negative or NaNs to min value
   _floor(double value, [min = 0.0]) {
     return value.sign <= min ? min : value;
   }

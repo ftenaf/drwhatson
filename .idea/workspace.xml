@@ -1,36 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ChangeListManager">
+    <list default="true" id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/data/about_es_ES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/congratulations.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/common/number_slide.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/views/quiz_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/covid_buster_lite_android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/covid_buster_lite_android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/data/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/assets/data/about_en_US.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/data/quizzes_es_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/data/quizzes_es_ES.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/languages/de-DE.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/de-DE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/languages/en-US.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/en-US.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/languages/es-ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/es-ES.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/logic/models/quiz.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logic/models/quiz.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/logic/view_models/topics_vm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logic/view_models/topics_vm.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/storage/storage_service_impl.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/storage/storage_service_impl.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/topics/topic_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/topics/topic_service.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/topics/topic_service_impl.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/topics/topic_service_impl.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/common/bottom.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/common/bottom.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/common/progress.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/common/progress.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/about_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/about_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ToolWindowManager">
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-    </layout>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="WCR7N18B06004295" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <option name="show-excluded-files" value="false" />
-      </pane>
-    </panes>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\dev\proyectos\flutter\covid_buster_lite\.idea" />
+      </set>
+    </option>
   </component>
+  <component name="ProjectId" id="1buWjw9TgzmEA9NYDU9VtzmIpcj" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/data" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\proyectos\flutter\covid_buster_lite\assets\data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="" />
+      <created>1589482597593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589482597593</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/views/about_screen.dart</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

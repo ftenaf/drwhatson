@@ -1,13 +1,11 @@
-import 'dart:developer';
-
 import 'package:covid_buster_lite/services/common/language_helper.dart';
 import 'package:covid_buster_lite/services/service_locator.dart';
 import 'package:covid_buster_lite/ui/views/about_screen.dart';
 import 'package:covid_buster_lite/ui/views/home_screen.dart';
 import 'package:covid_buster_lite/ui/views/profile_screen.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 void main() async {
   setupServiceLocator();
@@ -28,7 +26,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Am I safe?',
+      title: 'homePage.appBarTitle'.tr(),
       debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => TopicsScreen(),

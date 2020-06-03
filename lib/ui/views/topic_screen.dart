@@ -1,6 +1,7 @@
 import 'package:covid_buster_lite/logic/models/topic.dart';
 import 'package:covid_buster_lite/ui/common/bottom.dart';
 import 'package:covid_buster_lite/ui/utils/image.dart';
+import 'package:covid_buster_lite/ui/views/quiz_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -46,6 +47,13 @@ class QuizList extends StatelessWidget {
         elevation: 4,
         margin: EdgeInsets.all(4),
         child: InkWell(
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (BuildContext context) => QuizScreen(quizId: quiz.id),
+              ),
+            );
+          },
           child: Container(
             padding: EdgeInsets.all(8),
             child: ListTile(

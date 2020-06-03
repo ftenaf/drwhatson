@@ -10,8 +10,8 @@
     "quizzes": [
       {
         "id": "0",
-        "title": "GPS es",
-        "description": "Salgo o me quedo en casa?",
+        "title": "GPS",
+        "description": "¿Salgo o me quedo en casa?",
         "topic": "Covid-19",
         "version": 0,
         "results": [
@@ -40,7 +40,7 @@
                 "value": "0",
                 "detail": "",
                 "correct": true,
-                "tipo": "number",
+                "type": "number",
                 "min": 0,
                 "max": 10,
                 "formula": "x*-1"
@@ -49,7 +49,7 @@
           },
           {
             "id": "0",
-            "question": "No se publican nº test PCR realizado sal día (o >3 días demora)",
+            "question": "¿Hace mas de 3 dias que no se publican nº test PCR realizados al día?",
             "topic": "Fiabilidad del seguimiento de la epidemia",
             "answers": [
               {
@@ -70,7 +70,7 @@
           },
           {
             "id": "1",
-            "question": "No se publican el nº técnicos contratados/empleados para trazar casos",
+            "question": "¿Se publican el nº técnicos contratados/empleados para trazar casos?",
             "topic": "Fiabilidad del seguimiento de la epidemia",
             "video": "",
             "answers": [
@@ -92,7 +92,7 @@
           },
           {
             "id": "2",
-            "question": "No se publican los tiempos entre síntomas y confirmación/aislamiento",
+            "question": "¿Se publican los tiempos entre síntomas y confirmación/aislamiento?",
             "topic": "Fiabilidad del seguimiento de la epidemia",
             "video": "",
             "answers": [
@@ -114,7 +114,7 @@
           },
           {
             "id": "3",
-            "question": "Test al día positivos > x% del total realizados",
+            "question": "¿Cuántos tests al día son positivos del total realizados en porcentaje?",
             "topic": "Fiabilidad del seguimiento de la epidemia",
             "video": "",
             "answers": [
@@ -136,7 +136,7 @@
           },
           {
             "id": "4",
-            "question": "Tiempo entre inicio síntomas y confirmación >3 días",
+            "question": "¿Es mayor de 3 días el tiempo entre inicio síntomas y confirmación?",
             "topic": "Fiabilidad del seguimiento de la epidemia",
             "video": "",
             "answers": [
@@ -158,7 +158,7 @@
           },
           {
             "id": "5",
-            "question": "Tiempo entre inicio síntomas y confirmación > 3 días",
+            "question": "¿Es mayor de 3 días el tiempo entre inicio síntomas y confirmación?",
             "topic": "Fiabilidad del seguimiento de la epidemia",
             "answers": [
               {
@@ -174,56 +174,6 @@
                 "detail": "",
                 "correct": true,
                 "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "1",
-        "title": "GPS 2",
-        "description": "Should I stay 2",
-        "topic": "Covid",
-        "questions": [
-          {
-            "id": "100",
-            "question": "No se publican nº test PCR realizado sal día (o >3 días demora)",
-            "topic": "Fiabilidad del seguimiento de la epidemia",
-            "answers": [
-              {
-                "id": "0",
-                "value": "Si",
-                "detail": "",
-                "correct": true,
-                "points": 0
-              },
-              {
-                "id": "1",
-                "value": "No",
-                "detail": "",
-                "correct": true,
-                "points": -2
-              }
-            ]
-          },
-          {
-            "id": "101",
-            "question": "No se publican nº test PCR realizado sal día (o >3 días demora)",
-            "topic": "Fiabilidad del seguimiento de la epidemia",
-            "answers": [
-              {
-                "id": "0",
-                "value": "Si",
-                "detail": "",
-                "correct": true,
-                "points": 1
-              },
-              {
-                "id": "1",
-                "value": "No",
-                "detail": "",
-                "correct": true,
-                "points": -3
               }
             ]
           }

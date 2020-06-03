@@ -1,4 +1,5 @@
 import 'package:covid_buster_lite/ui/common/bottom.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
@@ -19,7 +20,7 @@ class AboutScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(title: Text('about'), backgroundColor: Colors.blue),
         body: FutureBuilder(
-            future: rootBundle.loadString("assets/data/about.md"),
+            future: rootBundle.loadString("assets/data/about_${EasyLocalization.of(context).locale.toString()}.md"),
             builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
               if (snapshot.hasData) {
                 return Markdown(

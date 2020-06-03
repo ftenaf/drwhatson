@@ -1,3 +1,4 @@
+import 'package:covid_buster_lite/logic/models/quiz.dart';
 import 'package:covid_buster_lite/logic/models/topic.dart';
 import 'package:covid_buster_lite/services/service_locator.dart';
 import 'package:covid_buster_lite/services/topics/topic_service.dart';
@@ -23,5 +24,10 @@ class TopicsViewModel extends ChangeNotifier {
 
   Future<void> _loadTopics(String locale) async {
     _topics = await _service.getAllTopics(locale);
+  }
+
+  Future<Quiz> getQuiz(String id, String locale) async {
+    Quiz q = await _service.getQuiz(id, locale);
+    return q;
   }
 }

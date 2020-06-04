@@ -1,5 +1,7 @@
 {
   "homePage": {
+    "spanish": "Spanish",
+    "english": "English",
     "appBarTitle": "Home Page DE",
     "hello": "Welcome",
     "topics": "Topics",

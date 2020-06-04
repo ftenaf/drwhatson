@@ -1,5 +1,4 @@
 import 'package:covid_buster_lite/logic/models/topic.dart';
-import 'package:covid_buster_lite/ui/common/bottom.dart';
 import 'package:covid_buster_lite/ui/utils/image.dart';
 import 'package:covid_buster_lite/ui/views/quiz_screen.dart';
 import 'package:flutter/material.dart';
@@ -23,12 +22,10 @@ class TopicScreen extends StatelessWidget {
         ),
         Text(
           topic.title,
-          style:
-              TextStyle(height: 2, fontSize: 20, fontWeight: FontWeight.bold),
+          style: TextStyle(height: 2, fontSize: 20, fontWeight: FontWeight.bold),
         ),
         QuizList(topic: topic)
       ]),
-      bottomNavigationBar: AppBottomNav(),
     );
   }
 }

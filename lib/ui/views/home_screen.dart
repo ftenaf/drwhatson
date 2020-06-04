@@ -1,11 +1,10 @@
 import 'package:covid_buster_lite/logic/models/topic.dart';
 import 'package:covid_buster_lite/logic/view_models/topics_vm.dart';
 import 'package:covid_buster_lite/services/service_locator.dart';
-import 'package:covid_buster_lite/ui/common/bottom.dart';
 import 'package:covid_buster_lite/ui/widgets/topic_tile.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:easy_localization/easy_localization.dart';
 
 class TopicsScreen extends StatefulWidget {
   @override
@@ -33,8 +32,7 @@ class _TopicsScreenState extends State<TopicsScreen> {
           IconButton(
             icon: Icon(Icons.refresh, color: Colors.pink[200]),
             onPressed: () {
-              var _topics = model
-                  .getTopics(EasyLocalization.of(context).locale.toString());
+              var _topics = model.getTopics(EasyLocalization.of(context).locale.toString());
               setState(() {
                 topics = _topics;
               });
@@ -54,8 +52,7 @@ class _TopicsScreenState extends State<TopicsScreen> {
                 padding: const EdgeInsets.all(20.0),
                 crossAxisSpacing: 10.0,
                 crossAxisCount: topicList.length > 3 ? 2 : 1,
-                children:
-                    topicList.map((topic) => TopicTile(topic: topic)).toList(),
+                children: topicList.map((topic) => TopicTile(topic: topic)).toList(),
               );
             } else {
               return Center(
@@ -63,12 +60,10 @@ class _TopicsScreenState extends State<TopicsScreen> {
                     width: 40.0,
                     height: 40.0,
                     child: const CircularProgressIndicator(
-                        backgroundColor: Colors.black,
-                        valueColor: AlwaysStoppedAnimation(Colors.red))),
+                        backgroundColor: Colors.black, valueColor: AlwaysStoppedAnimation(Colors.red))),
               );
             }
           }),
-      bottomNavigationBar: AppBottomNav(),
     );
   }
 

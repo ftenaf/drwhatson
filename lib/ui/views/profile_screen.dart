@@ -1,6 +1,6 @@
 import 'package:covid_buster_lite/services/common/language_helper.dart';
-import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter/material.dart';
 
 class ProfileScreen extends StatefulWidget {
   ProfileScreen({Key key}) : super(key: key);
@@ -38,22 +38,20 @@ class _ProfileScreenState extends State<ProfileScreen> {
             title: Text("homePage.dialogTitleSelectLanguage".tr()),
             children: <Widget>[
               RadioListTile(
-                  title: Text("Spanish"),
+                  title: Text("homePage.spanish".tr()),
                   value: LanguageHelper.kSpanishLocale,
                   groupValue: 0,
                   onChanged: (_) {
-                    EasyLocalization.of(context).locale =
-                        LanguageHelper.kSpanishLocale;
+                    EasyLocalization.of(context).locale = LanguageHelper.kSpanishLocale;
                     Navigator.pop(context);
                   }),
               Divider(height: 1),
               RadioListTile(
-                  title: Text("English"),
+                  title: Text("homePage.english".tr()),
                   value: LanguageHelper.kEnglishLocale,
                   groupValue: 0,
                   onChanged: (_) {
-                    EasyLocalization.of(context).locale =
-                        LanguageHelper.kEnglishLocale;
+                    EasyLocalization.of(context).locale = LanguageHelper.kEnglishLocale;
                     Navigator.pop(context);
                   }),
             ],

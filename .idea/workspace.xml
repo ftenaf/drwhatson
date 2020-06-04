@@ -2,35 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/data/about_es_ES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/congratulations.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/common/number_slide.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/views/quiz_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/covid_buster_lite_android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/covid_buster_lite_android.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/data/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/assets/data/about_en_US.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/data/quizzes_es_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/data/quizzes_es_ES.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/languages/de-DE.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/de-DE.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/languages/en-US.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/en-US.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/languages/es-ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/es-ES.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/logic/models/quiz.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logic/models/quiz.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/logic/view_models/topics_vm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logic/view_models/topics_vm.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/services/storage/storage_service_impl.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/storage/storage_service_impl.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/services/topics/topic_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/topics/topic_service.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/services/topics/topic_service_impl.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/topics/topic_service_impl.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/common/bottom.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/common/bottom.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/common/progress.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/common/progress.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/utils/image.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/utils/image.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/views/about_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/about_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/profile_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/profile_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
@@ -40,7 +24,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="WCR7N18B06004295" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_29_x86" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -53,6 +37,10 @@
   </component>
   <component name="ProjectId" id="1buWjw9TgzmEA9NYDU9VtzmIpcj" />
   <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="Nexus_5X_API_29_x86 [emulator-5554]" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.covid_buster_lite" />
+    <property name="DEBUGGER_ID" value="Java" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/data" />
@@ -105,9 +93,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/ui/views/about_screen.dart</url>
-          <line>22</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/lib/ui/common/bottom.dart</url>
+          <line>58</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

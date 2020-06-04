@@ -18,13 +18,10 @@ class QuizState with ChangeNotifier {
   Answer _selected;
   int _points = 0;
   HashSet<Answer> answers = new HashSet();
-
   final PageController controller = PageController();
 
   get progress => _progress;
-
   get selected => _selected;
-
   get points => _points;
 
   set progress(double newValue) {
@@ -62,8 +59,7 @@ class QuizScreen extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (_) => QuizState(),
       child: FutureBuilder(
-        future: model.getQuiz(
-            quizId, EasyLocalization.of(context).locale.toString()),
+        future: model.getQuiz(quizId, EasyLocalization.of(context).locale.toString()),
         builder: (BuildContext context, AsyncSnapshot snap) {
           var state = Provider.of<QuizState>(context);
           if (!snap.hasData || snap.hasError) {
@@ -82,8 +78,7 @@ class QuizScreen extends StatelessWidget {
                 physics: NeverScrollableScrollPhysics(),
                 scrollDirection: Axis.vertical,
                 controller: state.controller,
-                onPageChanged: (int idx) =>
-                    state.progress = (idx / (quiz.questions.length + 1)),
+                onPageChanged: (int idx) => state.progress = (idx / (quiz.questions.length + 1)),
                 itemBuilder: (BuildContext context, int idx) {
                   if (idx == 0) {
                     return StartPage(quiz: quiz);
@@ -145,9 +140,7 @@ class CongratsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     var state = Provider.of<QuizState>(context);
     //print(state.answers.map((a) => a.).reduce((value, element) => value));
-    var totalPoints = state.answers
-        .map((e) => getAnswerPoints(e))
-        .reduce((value, element) => value + element);
+    var totalPoints = state.answers.map((e) => getAnswerPoints(e)).reduce((value, element) => value + element);
     String result = getResult(quiz, totalPoints);
     return Padding(
       padding: EdgeInsets.all(8),
@@ -157,11 +150,7 @@ class CongratsPage extends StatelessWidget {
           Text(
             'quiz.congrats',
             textAlign: TextAlign.center,
-          ).tr(namedArgs: {
-            'title': quiz.title,
-            'totalPoints': totalPoints.toString(),
-            'result': result
-          }),
+          ).tr(namedArgs: {'title': quiz.title, 'totalPoints': totalPoints.toString(), 'result': result}),
           Divider(),
           Image.asset('assets/img/congratulations.gif'),
           Divider(),
@@ -171,11 +160,7 @@ class CongratsPage extends StatelessWidget {
             label: Text('quiz.markcompleted'.tr()),
             onPressed: () {
               _updateUserReport(quiz);
-              Navigator.pushNamedAndRemoveUntil(
-                context,
-                '/topics',
-                (route) => false,
-              );
+              Navigator.pop(context);
             },
           )
         ],
@@ -254,16 +239,15 @@ class QuestionPage extends StatelessWidget {
       context: context,
       builder: (BuildContext context) {
         return Container(
-          height: 250,
+          height: 200,
           padding: EdgeInsets.all(16),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              Text(correct ? 'quiz.right'.tr() : 'quiz.wrong'.tr()),
               Text(
                 opt.detail,
-                style: TextStyle(fontSize: 18, color: Colors.white54),
+                style: TextStyle(fontSize: 15, color: Colors.white),
               ),
               FlatButton(
                 color: correct ? Colors.green : Colors.red,
@@ -305,11 +289,7 @@ class QuestionPage extends StatelessWidget {
               padding: EdgeInsets.all(16),
               child: Row(
                 children: [
-                  Icon(
-                      state.selected == answer
-                          ? Icons.check_circle
-                          : Icons.remove_circle_outline,
-                      size: 30),
+                  Icon(state.selected == answer ? Icons.check_circle : Icons.remove_circle_outline, size: 30),
                   NumberSlider(
                     answer: answer,
                     onNumberChange: (int val) {
@@ -335,11 +315,7 @@ class QuestionPage extends StatelessWidget {
               padding: EdgeInsets.all(16),
               child: Row(
                 children: [
-                  Icon(
-                      state.selected == answer
-                          ? Icons.check_circle
-                          : Icons.remove_circle_outline,
-                      size: 30),
+                  Icon(state.selected == answer ? Icons.check_circle : Icons.remove_circle_outline, size: 30),
                   Expanded(
                     child: Container(
                       margin: EdgeInsets.only(left: 16),

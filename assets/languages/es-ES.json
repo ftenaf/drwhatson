@@ -8,7 +8,8 @@
       "about": "Acerca de",
       "profile": "Perfil",
       "selectLanguage": "Seleccione su idioma",
-      "dialogTitleSelectLanguage": "Seleccione su idioma"
+      "dialogTitleSelectLanguage": "Seleccione su idioma",
+      "back": "Volver"
     },
     "quiz":{
       "start": "Empezar!",

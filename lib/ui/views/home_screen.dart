@@ -24,9 +24,10 @@ class _TopicsScreenState extends State<TopicsScreen> {
   Widget build(BuildContext context) {
     topics = model.getTopics(EasyLocalization.of(context).locale.toString());
     return Scaffold(
+      backgroundColor: Colors.grey[400],
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.blue[900],
         title: Text("homePage.topics".tr()),
         actions: [
           IconButton(
@@ -75,10 +76,10 @@ class _TopicsScreenState extends State<TopicsScreen> {
           child: ListTile(
             leading: SizedBox(
               width: 60,
-              child: Text('${model.topics[index].id}'),
+              child: Center(child: Text('${model.topics[index].id}')),
             ),
-            title: Text(model.topics[index].title),
-            subtitle: Text(model.topics[index].description),
+            title: Center(child: Text(model.topics[index].title)),
+            subtitle: Center(child: Text(model.topics[index].description)),
           ),
         );
       },

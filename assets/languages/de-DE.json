@@ -8,7 +8,8 @@
     "about": "About",
     "profile": "Profile",
     "selectLanguage": "Select Language DE",
-    "dialogTitleSelectLanguage": "Select Language DE"
+    "dialogTitleSelectLanguage": "Select Language DE",
+    "back": "Back"
   },
   "quiz":{
     "start": "Start Quiz!",

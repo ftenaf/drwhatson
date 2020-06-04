@@ -1,9 +1,9 @@
 [
   {
     "id": "0",
-    "title": "Covid ES",
+    "title": "Covid-16",
     "description": "¿Salgo o me quedo en casa?",
-    "img": "icon:0xe8b5",
+    "img": "covid.png",
     "version": 0,
     "date":"",
     "changelog":"",

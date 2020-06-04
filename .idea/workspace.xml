@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/ui/common/home.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/data/quizzes_es_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/data/quizzes_es_ES.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/languages/de-DE.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/de-DE.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/languages/en-US.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/en-US.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/languages/es-ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/es-ES.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/common/bottom.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/common/bottom.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/utils/image.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/utils/image.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/views/about_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/about_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/common/bottom.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/views/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/home_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/views/profile_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/profile_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/quiz_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/quiz_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/topic_tile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/topic_tile.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +25,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_29_x86" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="WCR7N18B06004295" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -93,8 +94,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/ui/common/bottom.dart</url>
-          <line>58</line>
+          <url>file://$PROJECT_DIR$/lib/ui/common/home.dart</url>
+          <line>4</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

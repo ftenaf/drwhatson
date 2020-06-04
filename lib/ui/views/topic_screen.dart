@@ -1,6 +1,7 @@
 import 'package:covid_buster_lite/logic/models/topic.dart';
 import 'package:covid_buster_lite/ui/utils/image.dart';
 import 'package:covid_buster_lite/ui/views/quiz_screen.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -13,19 +14,23 @@ class TopicScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.blue[900],
+        title: Text("homePage.back".tr()),
       ),
-      body: ListView(children: [
-        Hero(
-          tag: topic.id,
-          child: getImage(topic.img, context, BoxFit.contain),
-        ),
-        Text(
-          topic.title,
-          style: TextStyle(height: 2, fontSize: 20, fontWeight: FontWeight.bold),
-        ),
-        QuizList(topic: topic)
-      ]),
+      body: Container(
+          padding: EdgeInsets.all(8),
+          child: ListView(children: [
+            Hero(
+              tag: topic.id,
+              child: getImage(topic.img, context, BoxFit.contain),
+            ),
+            Text(
+              topic.title,
+              textAlign: TextAlign.right,
+              style: TextStyle(height: 2, fontSize: 40, fontWeight: FontWeight.bold, color: Colors.blue[700]),
+            ),
+            QuizList(topic: topic)
+          ])),
     );
   }
 }
@@ -52,7 +57,7 @@ class QuizList extends StatelessWidget {
             );
           },
           child: Container(
-            padding: EdgeInsets.all(8),
+            padding: EdgeInsets.all(4),
             child: ListTile(
               title: Text(
                 quiz.title,

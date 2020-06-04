@@ -16,6 +16,7 @@ class TopicTile extends StatelessWidget {
         tag: topic.id,
         child: Card(
           clipBehavior: Clip.antiAlias,
+          color: Colors.blue[900],
           child: InkWell(
             onTap: () {
               Navigator.of(context).push(
@@ -39,13 +40,13 @@ class TopicTile extends StatelessWidget {
                     Expanded(
                       child: Padding(
                         padding: EdgeInsets.only(left: 10, right: 10),
-                        child: Text(
+                        child: Center(
+                            child: Text(
                           topic.title,
-                          style: TextStyle(
-                              height: 1.5, fontWeight: FontWeight.bold),
+                          style: TextStyle(height: 1.2, fontWeight: FontWeight.bold, fontSize: 40),
                           overflow: TextOverflow.fade,
                           softWrap: false,
-                        ),
+                        )),
                       ),
                     ),
                   ],

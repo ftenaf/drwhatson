@@ -5,27 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/ui/common/home.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/right.flr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/success.flr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/wrong.flr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/services/common/database.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/widgets/congrats_quiz.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/widgets/question_quiz.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/widgets/start_quiz.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/data/quizzes_en_US.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/data/quizzes_en_US.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/data/quizzes_es_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/data/quizzes_es_ES.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/congratulations.gif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/languages/de-DE.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/de-DE.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/languages/en-US.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/en-US.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/languages/es-ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/es-ES.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/logic/models/quiz.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logic/models/quiz.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/common/bottom.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/views/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/common/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/common/app_nav_bar.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/views/quiz_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/quiz_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/topic_tile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/topic_tile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="WCR7N18B06004295" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_29_x86" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -37,7 +54,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1buWjw9TgzmEA9NYDU9VtzmIpcj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DEBUGGABLE_DEVICE" value="Nexus_5X_API_29_x86 [emulator-5554]" />
     <property name="DEBUGGABLE_PROCESS" value="com.example.covid_buster_lite" />
     <property name="DEBUGGER_ID" value="Java" />
@@ -51,18 +77,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\dev\proyectos\flutter\covid_buster_lite\assets\data" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,15 +104,57 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/ui/common/home.dart</url>
-          <line>4</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="954" y="445" key="#Plugins" timestamp="1591383225203">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="954" y="445" key="#Plugins/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591383225203" />
+    <state x="817" y="441" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591383135952">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="817" y="441" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591383135952" />
+    <state width="426" height="466" key="DebuggerActiveHint" timestamp="1591384697090">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="426" height="466" key="DebuggerActiveHint/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591384697090" />
+    <state width="1312" height="716" key="GridCell.Tab.0.bottom" timestamp="1591386883671">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="1312" height="716" key="GridCell.Tab.0.bottom/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591386883671" />
+    <state width="1312" height="716" key="GridCell.Tab.0.center" timestamp="1591386883670">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="1312" height="716" key="GridCell.Tab.0.center/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591386883670" />
+    <state width="1312" height="716" key="GridCell.Tab.0.left" timestamp="1591386883670">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="1312" height="716" key="GridCell.Tab.0.left/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591386883670" />
+    <state width="1312" height="716" key="GridCell.Tab.0.right" timestamp="1591386883671">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="1312" height="716" key="GridCell.Tab.0.right/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591386883671" />
+    <state width="631" height="723" key="XDebugger.FullValuePopup" timestamp="1591384697087">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="631" height="723" key="XDebugger.FullValuePopup/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591384697087" />
+    <state x="710" y="320" width="1302" height="932" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1591383274361">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="710" y="320" width="1302" height="932" key="com.android.tools.idea.avdmanager.AvdListDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591383274361" />
+    <state x="1057" y="610" key="com.intellij.ide.util.TipDialog" timestamp="1591383250584">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1057" y="610" key="com.intellij.ide.util.TipDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591383250584" />
+    <state x="380" y="455" width="612" height="536" key="find.popup" timestamp="1591383391341">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="380" y="455" width="612" height="536" key="find.popup/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591383391341" />
+    <state x="399" y="344" key="run.anything.popup" timestamp="1591385022165">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="399" y="344" key="run.anything.popup/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591385022165" />
   </component>
 </project>

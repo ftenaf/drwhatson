@@ -13,6 +13,7 @@
         "title": "GPS",
         "description": "¿Salgo o me quedo en casa?",
         "topic": "Covid-19",
+        "retry": 0,
         "version": 0,
         "results": [
           {
@@ -31,7 +32,7 @@
         "questions": [
           {
             "id": "6",
-            "question": "Por cada persona que nos diga de primera mano que ha llamado con síntomas y no le han cogido el teléfono o hecho el test.",
+            "question": "¿Cuántas personas nos han dicho de primera mano que ha llamado con síntomas y no le han cogido el teléfono o hecho el test.",
             "topic": "Fiabilidad del seguimiento de la epidemia",
             "video": "",
             "answers": [

@@ -8,12 +8,12 @@ import 'package:flutter/material.dart';
 
 GlobalKey globalKey = new GlobalKey();
 
-class HomeNavBar extends StatefulWidget {
+class AppNavBar extends StatefulWidget {
   @override
-  _HomeNavBarState createState() => _HomeNavBarState();
+  _AppNavBarState createState() => _AppNavBarState();
 }
 
-class _HomeNavBarState extends State<HomeNavBar> {
+class _AppNavBarState extends State<AppNavBar> {
   int _pageIndex = 0;
   final _pages = [TopicsScreen(), AboutScreen(), ProfileScreen(), TopicScreen(), QuizScreen()];
 
@@ -25,7 +25,7 @@ class _HomeNavBarState extends State<HomeNavBar> {
           backgroundColor: Colors.grey[400],
           buttonBackgroundColor: Colors.blue[700],
           animationDuration: Duration(milliseconds: 400),
-          animationCurve: Curves.fastLinearToSlowEaseIn,
+          animationCurve: Curves.elasticInOut,
           height: 50,
           index: _pageIndex,
           items: <Widget>[

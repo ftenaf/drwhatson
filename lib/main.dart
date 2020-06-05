@@ -1,6 +1,6 @@
 import 'package:covid_buster_lite/services/common/language_helper.dart';
 import 'package:covid_buster_lite/services/service_locator.dart';
-import 'package:covid_buster_lite/ui/common/home.dart';
+import 'package:covid_buster_lite/ui/common/app_nav_bar.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'homePage.appBarTitle'.tr(),
       debugShowCheckedModeBanner: false,
-      home: HomeNavBar(),
+      home: AppNavBar(),
       localizationsDelegates: [
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,

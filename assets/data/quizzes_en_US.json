@@ -13,6 +13,7 @@
         "title": "GPS",
         "description": "Should I stay?",
         "topic": "Covid",
+        "retry": 0,
         "version": 0,
         "results": [
           {

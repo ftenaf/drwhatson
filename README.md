@@ -11,7 +11,7 @@ Cada Test contiene una serie de preguntas y está agrupado en Temas de interés.
 * title: el título que aparecerá en su tarjeta
 * description: aparecerá en el detalle una vez seleccionado el tema concreto
 * img: imagen que lo identifique, esta imagen:
-  - Si va precedida de "icon:" podrá ser cualquier icono de la biblioteca de flutter:
+  - Si va precedida de "icon:" podrá ser cualquier icono de la [biblioteca de flutter](https://api.flutter.dev/flutter/material/Icons-class.html):
       - "icon:0xe8b5"
   - Si va precedida de "http" se buscará la URL correspondiente (recuerde que debe permitir hotlink):
       - "https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png"

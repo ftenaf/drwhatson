@@ -7,7 +7,9 @@
     <list default="true" id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/data/quizzes_es_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/data/quizzes_es_ES.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/logic/models/profile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logic/models/profile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/logic/view_models/profile_vm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logic/view_models/profile_vm.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/profile_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/profile_screen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,22 +122,22 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state width="472" height="466" key="DebuggerActiveHint/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591638740531" />
-    <state width="1311" height="516" key="GridCell.Tab.0.bottom" timestamp="1591639388918">
+    <state width="1311" height="516" key="GridCell.Tab.0.bottom" timestamp="1591641323958">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.bottom/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591639388918" />
-    <state width="1311" height="516" key="GridCell.Tab.0.center" timestamp="1591639388918">
+    <state width="1311" height="516" key="GridCell.Tab.0.bottom/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591641323958" />
+    <state width="1311" height="516" key="GridCell.Tab.0.center" timestamp="1591641323958">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.center/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591639388918" />
-    <state width="1311" height="516" key="GridCell.Tab.0.left" timestamp="1591639388918">
+    <state width="1311" height="516" key="GridCell.Tab.0.center/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591641323958" />
+    <state width="1311" height="516" key="GridCell.Tab.0.left" timestamp="1591641323958">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.left/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591639388918" />
-    <state width="1311" height="516" key="GridCell.Tab.0.right" timestamp="1591639388918">
+    <state width="1311" height="516" key="GridCell.Tab.0.left/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591641323958" />
+    <state width="1311" height="516" key="GridCell.Tab.0.right" timestamp="1591641323958">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.right/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591639388918" />
+    <state width="1311" height="516" key="GridCell.Tab.0.right/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591641323958" />
     <state x="333" y="457" key="Vcs.Push.Dialog.v2" timestamp="1591562120457">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -148,10 +150,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="710" y="320" width="1302" height="932" key="com.android.tools.idea.avdmanager.AvdListDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591383274361" />
-    <state x="155" y="100" width="1171" height="1247" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591615429697">
+    <state x="155" y="100" width="1171" height="1247" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591641080330">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="155" y="100" width="1171" height="1247" key="com.intellij.history.integration.ui.views.FileHistoryDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591615429697" />
+    <state x="155" y="100" width="1171" height="1247" key="com.intellij.history.integration.ui.views.FileHistoryDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591641080330" />
     <state x="1057" y="610" key="com.intellij.ide.util.TipDialog" timestamp="1591383250584">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -247,10 +249,5 @@
         <breakpoint suspend="THREAD" type="dart-exception" />
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="FlutterRunConfigurationType">
-        <watch expression="response.body" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

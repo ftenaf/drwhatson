@@ -16,6 +16,11 @@ class Profile {
   bool autoinmune;
   bool others;
 
+  bool likelypassed;
+  bool publicService;
+  bool elderPartner;
+  bool ig;
+
   Profile(
       {@required this.id,
       @required this.idString,
@@ -30,6 +35,10 @@ class Profile {
       this.inmunosuppressedhigh,
       this.inmunosuppressedlow,
       this.autoinmune,
+      this.likelypassed,
+      this.publicService,
+      this.elderPartner,
+      this.ig,
       this.others});
 
   factory Profile.fromMap(Map<String, dynamic> data) {
@@ -47,6 +56,10 @@ class Profile {
         inmunosuppressedhigh: data['inmunosuppressedhigh'] ?? false,
         inmunosuppressedlow: data['inmunosuppressedlow'] ?? false,
         autoinmune: data['autoinmune'] ?? false,
+        likelypassed: data['likelypassed'] ?? false,
+        publicService: data['publicService'] ?? false,
+        elderPartner: data['elderPartner'] ?? false,
+        ig: data['ig'] ?? false,
         others: data['others'] ?? false);
   }
 
@@ -65,6 +78,10 @@ class Profile {
       'inmunosuppressedhigh': inmunosuppressedhigh,
       'inmunosuppressedlow': inmunosuppressedlow,
       'autoinmune': autoinmune,
+      'likelypassed': likelypassed,
+      'publicService': publicService,
+      'elderPartner': elderPartner,
+      'ig': ig,
       'others': others
     };
   }

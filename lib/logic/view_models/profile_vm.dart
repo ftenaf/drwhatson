@@ -25,7 +25,20 @@ class ProfileViewModel with ChangeNotifier {
     return _profile;
   }
 
-  int get points {
+  double get points {
+    double pts = 0;
+    if (_profile != null) {
+      pts = comorbilityPoints;
+      if (_profile.publicService) pts -= 2;
+      if (_profile.elderPartner) pts -= 2;
+      if (_profile.ig) pts += 5;
+      if (_profile.likelypassed) pts += 2;
+      if (_profile.others) pts += 1;
+    }
+    return pts;
+  }
+
+  double get comorbilityPoints {
     int pts = 0;
     if (_profile != null) {
       if (_profile.age > 80) pts += 3;
@@ -41,8 +54,10 @@ class ProfileViewModel with ChangeNotifier {
       if (_profile.inmunosuppressedhigh) pts += 2;
       if (_profile.inmunosuppressedlow) pts += 1;
       if (_profile.autoinmune) pts += 1;
-      if (_profile.others) pts += 1;
+      if (_profile.publicService) pts -= 2;
     }
-    return pts;
+    if (pts > 5) return -5;
+    if (pts > 2 && pts < 6) return -5;
+    if (pts < 3) return -1;
   }
 }

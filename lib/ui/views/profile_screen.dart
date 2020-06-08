@@ -223,6 +223,50 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         },
                       ),
                     ]),
+                    Row(children: [
+                      Text('profile.publicService'.tr()),
+                      Checkbox(
+                        value: profile.publicService,
+                        onChanged: (bool value) async {
+                          setState(() {
+                            profile.publicService = value;
+                          });
+                        },
+                      ),
+                    ]),
+                    Row(children: [
+                      Text('profile.elderPartner'.tr()),
+                      Checkbox(
+                        value: profile.elderPartner,
+                        onChanged: (bool value) async {
+                          setState(() {
+                            profile.elderPartner = value;
+                          });
+                        },
+                      )
+                    ]),
+                    Row(children: [
+                      Text('profile.ig'.tr()),
+                      Checkbox(
+                        value: profile.ig,
+                        onChanged: (bool value) async {
+                          setState(() {
+                            profile.ig = value;
+                          });
+                        },
+                      ),
+                    ]),
+                    Row(children: [
+                      Text('profile.likelypassed'.tr()),
+                      Checkbox(
+                        value: profile.likelypassed,
+                        onChanged: (bool value) async {
+                          setState(() {
+                            profile.likelypassed = value;
+                          });
+                        },
+                      ),
+                    ]),
                     RaisedButton(
                       child: Text('profile.save'.tr()),
                       onPressed: () async {

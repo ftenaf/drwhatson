@@ -3,10 +3,21 @@ Flutter Application to make quizzes based on different health related topics, es
 
 ![Pagina principal](doc/img/mainScreen.png)
 
+Actualmente y para abaratar costes y no depender de terceros (gcp, aws, azure) la implementación de los servicios para obtener los "temas-tests-preguntas" utiliza almacenamiento local en ficheros estáticos (json y markdown) simulando una llamada a un servicio REST. 
+Es facilmente sustituible gracias a la implementacion de MVVM y del patrón service locator mediante inyeccion de dependencias (getit de flutter).
+
+Para simplificar las actualizaciones de los tests disponibles se buscarán ficheros servidos por github dentro de este mismo repositorio (/assets/data/quizzes_es_ES.json).
+
+Las traducciones están soportadas creando ficheros idénticos pero con el sufijo de cada traduccion. 
+Por ejemplo, la seccion de "Acerca de" lee de un fichero markdown (/assets/data/about_es_ES.md) para su version española, y  (/assets/data/about_en_US.json) para su versión inglesa. 
+
+Cada tema y sus tests, asi como sus correspondientes preguntas están tambien definidas por su idioma (/assets/data/quizzes_es_ES.json) o  (/assets/data/quizzes_en_US.json)
+
+En cuanto a las traducciones de los textos propios de la aplicacion, están definidos en (/assets/languages/es_ES.json) o (/assets/languages/en_US.json).
 
 Cada Test contiene una serie de preguntas y está agrupado en Temas de interés. 
  
- Un Tema tiene como propiedades:
+ Un Tema tiene como propiedades, puede encontrar un ejemplo en (/assets/data/quizzes_es_ES.json):
 * id: Identificador unívoco, NO debe repetirse en ningún caso.
 * title: el título que aparecerá en su tarjeta
 * description: aparecerá en el detalle una vez seleccionado el tema concreto

@@ -46,7 +46,8 @@ class QuizList extends StatelessWidget {
         children: topic.quizzes.map((quiz) {
       return Card(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
-        elevation: 4,
+        color: Colors.blue[300],
+        elevation: 15,
         margin: EdgeInsets.all(4),
         child: InkWell(
           onTap: () {
@@ -59,6 +60,8 @@ class QuizList extends StatelessWidget {
           child: Container(
             padding: EdgeInsets.all(4),
             child: ListTile(
+              hoverColor: Colors.blue,
+              focusColor: Colors.blue,
               title: Text(
                 quiz.title,
                 style: Theme.of(context).textTheme.headline1,

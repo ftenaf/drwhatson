@@ -4,7 +4,11 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="" />
+    <list default="true" id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/data/quizzes_es_ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/data/quizzes_es_ES.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

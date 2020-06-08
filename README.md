@@ -1,6 +1,9 @@
 # covid_buster_lite
 Flutter Application to make quizzes based on different health related topics, especially on Covid-19
 
+![Pagina principal](doc/img/mainScreen.png)
+
+
 Cada Test contiene una serie de preguntas y está agrupado en Temas de interés. 
  
  Un Tema tiene como propiedades:

@@ -7,6 +7,8 @@
       <root url="file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.3/lib" />
       <root url="file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/clock-1.0.1/lib" />
       <root url="file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.12/lib" />
+      <root url="file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1/lib" />
+      <root url="file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.5/lib" />
       <root url="file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.3/lib" />
       <root url="file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/curved_navigation_bar-0.3.2/lib" />
       <root url="file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/easy_localization-2.3.1/lib" />
@@ -55,6 +57,7 @@
       <root url="file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+5/lib" />
       <root url="file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.7/lib" />
       <root url="file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.1+5/lib" />
+      <root url="file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/uuid-2.0.4/lib" />
       <root url="file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.0.8/lib" />
       <root url="file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.0/lib" />
       <root url="file://D:/tools/flutter/bin/cache/pkg/sky_engine/lib" />

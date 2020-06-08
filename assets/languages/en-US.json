@@ -20,5 +20,22 @@
     "onward": "Onward!",
     "tryagain": "Try Again",
     "continue": "Continue"
+  },
+  "profile": {
+    "continue": "Continue",
+    "saved": "Saved",
+    "save": "Save",
+    "sex": "Sex",
+    "fat": "Obesity",
+    "age": "Age",
+    "heartDisease": "Heart disease",
+    "hypertension": "Hypertension",
+    "epoc": "EPOC",
+    "smoker": "Smoker",
+    "chemotherapy": "Chemotherapy",
+    "autoinmune": "Autoinmune",
+    "inmunosuppressedhigh": "Inmunosuppressedhigh",
+    "inmunosuppressedlow": "inmunosuppressedlow",
+    "others": "Others"
   }
 }

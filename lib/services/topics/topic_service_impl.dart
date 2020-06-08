@@ -20,6 +20,7 @@ class TopicServiceImpl implements TopicService {
     return topics;
   }
 
+  @override
   Future<Quiz> getQuiz(String id, String locale) async {
     final topics = await getAllTopics(locale);
     List<Quiz> quizzes = new List();

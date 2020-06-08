@@ -10,4 +10,4 @@ You may think that these are excessively prudent recommendations, but in my expe
 
 And it will be for your own good.
 
-[Summary of the ssituation](https://www.notion.so/Semana-4-10-Mayo-fccb02e9641b496a81e59350fa9c15f7)
+[Summary of the situation](https://www.notion.so/Semana-4-10-Mayo-fccb02e9641b496a81e59350fa9c15f7)

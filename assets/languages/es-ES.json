@@ -37,6 +37,10 @@
       "autoinmune": "Autoinmune",
       "inmunosuppressedhigh": "Inmuno Deprimido Alto",
       "inmunosuppressedlow": "Inmuno Deprimido Bajo",
+      "likelypassed": "Anosmia, sin test pero parece haberlo pasado",
+      "publicService": "Servicios de cara al público",
+      "elderPartner": "Convive con Personas de alto riesgo",
+      "ig": "Inmunizado (IgG+)",
       "others": "Otros"
     }
   }

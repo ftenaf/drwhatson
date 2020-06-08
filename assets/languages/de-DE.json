@@ -36,6 +36,10 @@
     "autoinmune": "Autoinmune",
     "inmunosuppressedhigh": "Inmunosuppressedhigh",
     "inmunosuppressedlow": "inmunosuppressedlow",
+    "likelypassed": "Likely passed without test",
+    "publicService": "Public Service",
+    "elderPartner": "Live with high risk person",
+    "ig": "Inmunzied (IgG+)",
     "others": "Others"
   }
 }

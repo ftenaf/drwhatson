@@ -1,9 +1,9 @@
 [
   {
     "id": "0",
-    "title": "Covid",
-    "description": "Should I stay or should I go",
-    "img": "covid.png",
+    "title": "Covid-19.",
+    "description": "Shall I go out or stay in?",
+    "img": "covid.png.",
     "version": 0,
     "date":"",
     "changelog":"",
@@ -11,8 +11,8 @@
       {
         "id": "0",
         "title": "GPS",
-        "description": "Should I stay?",
-        "topic": "Covid",
+        "description": "Shall I go out or stay in?",
+        "topic": "Covid-19.",
         "retry": 0,
         "version": 0,
         "results": [
@@ -31,26 +31,8 @@
         ],
         "questions": [
           {
-            "id": "6",
-            "question": "For every person who tells us first-hand that they've called in with symptoms and haven't picked up the phone or taken the test.",
-            "topic": "Reliability of tracking the epidemic.",
-            "video": "",
-            "answers": [
-              {
-                "id": "0",
-                "value": "0",
-                "detail": "",
-                "correct": true,
-                "type": "number",
-                "min": 0,
-                "max": 10,
-                "formula": "x*-1"
-              }
-            ]
-          },
-          {
             "id": "0",
-            "question": "No PCR test performed on this day (or >3 days late) is published",
+            "question": "Has it been more than 3 days since you published the number of PCR tests performed per day?",
             "topic": "Reliability of monitoring the epidemic",
             "answers": [
               {
@@ -71,7 +53,7 @@
           },
           {
             "id": "1",
-            "question": "The number of technicians contracted/employed to draw up cases is not published",
+            "question": "Is the number of technicians hired/employed to draw up cases published?",
             "topic": "Reliability of monitoring the epidemic",
             "video": "",
             "answers": [
@@ -93,8 +75,8 @@
           },
           {
             "id": "2",
-            "question": "No published times between symptoms and confirmation/isolation.",
-            "topic": "Reliability of monitoring the epidemic",
+            "question": "Are the times between symptoms and confirmation/isolation published?",
+            "topic": "Reliability of monitoring the epidemic.",
             "video": "",
             "answers": [
               {
@@ -115,8 +97,8 @@
           },
           {
             "id": "3",
-            "question": "Test per day positive > x% of total performed",
-            "topic": "Reliability of monitoring the epidemic",
+            "question": "How many tests per day are positive out of the total number performed as a percentage?",
+            "topic": "Reliability of monitoring the epidemic.",
             "video": "",
             "answers": [
               {
@@ -137,8 +119,8 @@
           },
           {
             "id": "4",
-            "question": "Time between onset of symptoms and confirmation >3 days.",
-            "topic": "Reliability of monitoring the epidemic",
+            "question": "Is the time between onset of symptoms and confirmation greater than 3 days or is the time between onset of symptoms and confirmation greater than 5 days?",
+            "topic": "Reliability of monitoring the epidemic.",
             "video": "",
             "answers": [
               {
@@ -159,89 +141,129 @@
           },
           {
             "id": "5",
-            "question": "Time between onset of symptoms and confirmation > 3 days.",
-            "topic": "Reliability of monitoring the epidemic",
+            "question": "How many people have told us firsthand that you've called with symptoms and haven't picked up the phone or taken the test?",
+            "topic": "Reliability of monitoring the epidemic.",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "0",
+                "detail": "",
+                "correct": true,
+                "type": "number",
+                "min": 0,
+                "max": 10,
+                "formula": "x*-1"
+              }
+            ]
+          },
+          {
+            "id": "6",
+            "question": "How many people have told us firsthand that they have tested positive and had no follow-up or quarantine of their contacts?",
+            "topic": "Reliability of tracking the epidemic.",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "0",
+                "detail": "",
+                "correct": true,
+                "type": "number",
+                "min": 0,
+                "max": 10,
+                "formula": "x*-1"
+              }
+            ]
+          },
+          {
+            "id": "7",
+            "question": "Has the number of cases increased in more than 3 consecutive days?",
+            "topic": "Reliability of monitoring the epidemic.",
+            "video": "",
             "answers": [
               {
                 "id": "0",
                 "value": "Yes",
                 "detail": "",
                 "correct": true,
-                "points": 0
+                "points": -2
               },
               {
                 "id": "1",
                 "value": "No",
                 "detail": "",
                 "correct": true,
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "1",
-        "title": "GPS 2",
-        "description": "Should I stay 2",
-        "topic": "Covid",
-        "questions": [
-          {
-            "id": "100",
-            "question": "No se publican nº test PCR realizado sal día (o >3 días demora)",
-            "topic": "Fiabilidad del seguimiento de la epidemia",
-            "answers": [
-              {
-                "id": "0",
-                "value": "Si",
-                "detail": "",
-                "correct": true,
                 "points": 0
-              },
-              {
-                "id": "1",
-                "value": "No",
-                "detail": "",
-                "correct": true,
-                "points": -2
               }
             ]
           },
           {
-            "id": "101",
-            "question": "No se publican nº test PCR realizado sal día (o >3 días demora)",
-            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "id": "8",
+            "question": "Has there been an outbreak in your province?",
+            "topic": "Reliability of monitoring the epidemic.",
+            "video": "",
             "answers": [
               {
                 "id": "0",
-                "value": "Si",
+                "value": "Yes",
                 "detail": "",
                 "correct": true,
-                "points": 1
+                "points": -5
               },
               {
                 "id": "1",
                 "value": "No",
                 "detail": "",
                 "correct": true,
-                "points": -3
+                "points": 0
+              }
+            ]
+          },
+          {
+            "id": "9",
+            "question": "Has there been an outbreak in a nearby province?",
+            "topic": "Reliability of monitoring the epidemic.",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Yes",
+                "detail": "",
+                "correct": true,
+                "points": -2
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": 0
+              }
+            ]
+          },
+          {
+            "id": "10",
+            "question": "Have you read news of new infections in nursing homes or health care facilities?",
+            "topic": "Reliability of monitoring the epidemic.",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Yes",
+                "detail": "",
+                "correct": true,
+                "points": -1
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": 0
               }
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "1",
-    "title": "Comorbilidad",
-    "description": "Riesgo que tengo",
-    "topic": "Personal",
-    "quizzes": [
-      {
-        "id": "2",
-        "question": "No se publican nº test PCR realizado sal día (o >3 días demora)",
-        "topic": "Fiabilidad del seguimiento de la epidemia"
       }
     ]
   }

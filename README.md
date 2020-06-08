@@ -29,7 +29,7 @@ Cada Test contiene una serie de preguntas y está agrupado en Temas de interés.
 * version: Versión del test,
 * results: Qué significa la puntuación obtenida, y se define mediante una fórmula y el texto a mostrar en caso de que se dé la condición;
     por ejemplo:
-    ```
+    ```json
     [{
         "formula": "x > 5 && x < 10",
         "result":"Adelante con el cambio de fase"
@@ -51,7 +51,7 @@ Cada Test contiene una serie de preguntas y está agrupado en Temas de interés.
         * correct: true o false según sea o no la respuesta correcta
         * type:
             * "number" mostrará un slider con un minimo y un máximo y una fórmula que afecte al resultado seleccionado, por ejemplo:
-             ```
+             ```json
                {
                 "min": 0,
                 "max": 10,

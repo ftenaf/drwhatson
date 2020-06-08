@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/data/quizzes_en_US.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/data/quizzes_en_US.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/languages/de-DE.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/de-DE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/languages/en-US.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/en-US.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/languages/es-ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/es-ES.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,22 +119,22 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state width="472" height="466" key="DebuggerActiveHint/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591638740531" />
-    <state width="1311" height="516" key="GridCell.Tab.0.bottom" timestamp="1591641727907">
+    <state width="1311" height="516" key="GridCell.Tab.0.bottom" timestamp="1591642535540">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.bottom/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591641727907" />
-    <state width="1311" height="516" key="GridCell.Tab.0.center" timestamp="1591641727907">
+    <state width="1311" height="516" key="GridCell.Tab.0.bottom/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591642535540" />
+    <state width="1311" height="516" key="GridCell.Tab.0.center" timestamp="1591642535540">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.center/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591641727907" />
-    <state width="1311" height="516" key="GridCell.Tab.0.left" timestamp="1591641727907">
+    <state width="1311" height="516" key="GridCell.Tab.0.center/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591642535540" />
+    <state width="1311" height="516" key="GridCell.Tab.0.left" timestamp="1591642535540">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.left/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591641727907" />
-    <state width="1311" height="516" key="GridCell.Tab.0.right" timestamp="1591641727907">
+    <state width="1311" height="516" key="GridCell.Tab.0.left/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591642535540" />
+    <state width="1311" height="516" key="GridCell.Tab.0.right" timestamp="1591642535540">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.right/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591641727907" />
+    <state width="1311" height="516" key="GridCell.Tab.0.right/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591642535540" />
     <state x="333" y="457" key="Vcs.Push.Dialog.v2" timestamp="1591562120457">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>

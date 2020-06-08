@@ -1,7 +1,7 @@
 # covid_buster_lite
 Flutter Application to make quizzes based on different health related topics, especially on Covid-19
 
-![Pagina principal](doc/img/mainScreen.png)
+![Pagina principal](doc/img/ui.gif)
 
 Actualmente y para abaratar costes y no depender de terceros (gcp, aws, azure) la implementación de los servicios para obtener los "temas-tests-preguntas" utiliza almacenamiento local en ficheros estáticos (json y markdown) simulando una llamada a un servicio REST. 
 Es facilmente sustituible gracias a la implementacion de MVVM y del patrón service locator mediante inyeccion de dependencias (getit de flutter).

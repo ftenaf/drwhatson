@@ -19,19 +19,33 @@ class _AppNavBarState extends State<AppNavBar> {
 
   @override
   Widget build(BuildContext context) {
+    var colorIcon = Colors.black87;
+    double sizeIcon = 40;
     return Scaffold(
         bottomNavigationBar: CurvedNavigationBar(
-          color: Colors.blue[700],
+          color: Colors.blue,
           backgroundColor: Colors.grey[400],
-          buttonBackgroundColor: Colors.blue[700],
+          buttonBackgroundColor: Colors.white70,
           animationDuration: Duration(milliseconds: 400),
           animationCurve: Curves.elasticInOut,
           height: 50,
           index: _pageIndex,
           items: <Widget>[
-            Icon(Icons.school, size: 40),
-            Icon(Icons.help, size: 40),
-            Icon(Icons.account_circle, size: 40)
+            Icon(
+              Icons.school,
+              size: sizeIcon,
+              color: colorIcon,
+            ),
+            Icon(
+              Icons.help,
+              size: sizeIcon,
+              color: colorIcon,
+            ),
+            Icon(
+              Icons.account_circle,
+              size: sizeIcon,
+              color: colorIcon,
+            )
           ],
           onTap: (index) {
             setState(() {

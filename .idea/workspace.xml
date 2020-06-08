@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/services/profile/profile_service_web_impl.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/languages/de-DE.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/de-DE.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/languages/en-US.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/en-US.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/languages/es-ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/es-ES.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/data/about_es_ES.md" beforeDir="false" afterPath="$PROJECT_DIR$/assets/data/about_es_ES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/common/database.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/common/database.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/common/app_nav_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/common/app_nav_bar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/about_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/about_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/views/profile_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/profile_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/topic_tile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/topic_tile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +59,12 @@
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/logic/view_models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/services/profile" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\proyectos\flutter\covid_buster_lite\lib\services\profile" />
       <recent name="D:\dev\proyectos\flutter\covid_buster_lite\lib\logic\view_models" />
       <recent name="D:\dev\proyectos\flutter\covid_buster_lite\assets\data" />
     </key>
@@ -100,30 +107,30 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="817" y="441" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591383135952" />
-    <state x="396" y="318" key="CommitChangelistDialog2" timestamp="1591563354002">
+    <state x="396" y="318" key="CommitChangelistDialog2" timestamp="1591630404896">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="396" y="318" key="CommitChangelistDialog2/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591563354002" />
+    <state x="396" y="318" key="CommitChangelistDialog2/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591630404896" />
     <state width="438" height="466" key="DebuggerActiveHint" timestamp="1591613609561">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state width="438" height="466" key="DebuggerActiveHint/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591613609561" />
-    <state width="1311" height="516" key="GridCell.Tab.0.bottom" timestamp="1591619431409">
+    <state width="1311" height="516" key="GridCell.Tab.0.bottom" timestamp="1591631892902">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.bottom/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591619431409" />
-    <state width="1311" height="516" key="GridCell.Tab.0.center" timestamp="1591619431409">
+    <state width="1311" height="516" key="GridCell.Tab.0.bottom/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591631892902" />
+    <state width="1311" height="516" key="GridCell.Tab.0.center" timestamp="1591631892902">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.center/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591619431409" />
-    <state width="1311" height="516" key="GridCell.Tab.0.left" timestamp="1591619431409">
+    <state width="1311" height="516" key="GridCell.Tab.0.center/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591631892902" />
+    <state width="1311" height="516" key="GridCell.Tab.0.left" timestamp="1591631892902">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.left/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591619431409" />
-    <state width="1311" height="516" key="GridCell.Tab.0.right" timestamp="1591619431409">
+    <state width="1311" height="516" key="GridCell.Tab.0.left/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591631892902" />
+    <state width="1311" height="516" key="GridCell.Tab.0.right" timestamp="1591631892902">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.right/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591619431409" />
+    <state width="1311" height="516" key="GridCell.Tab.0.right/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591631892902" />
     <state x="333" y="457" key="Vcs.Push.Dialog.v2" timestamp="1591562120457">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -148,10 +155,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="309" y="460" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591607578917" />
-    <state x="380" y="455" width="981" height="895" key="find.popup" timestamp="1591603516391">
+    <state x="380" y="455" width="981" height="895" key="find.popup" timestamp="1591631316698">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="380" y="455" width="981" height="895" key="find.popup/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591603516391" />
+    <state x="380" y="455" width="981" height="895" key="find.popup/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591631316698" />
     <state x="400" y="344" key="run.anything.popup" timestamp="1591532850627">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -202,12 +209,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
           <url>file://$PROJECT_DIR$/lib/ui/views/profile_screen.dart</url>
-          <line>136</line>
+          <line>139</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
           <url>file://$PROJECT_DIR$/lib/ui/views/profile_screen.dart</url>
-          <line>156</line>
+          <line>159</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>

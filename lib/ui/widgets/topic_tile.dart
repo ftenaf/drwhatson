@@ -43,7 +43,8 @@ class TopicTile extends StatelessWidget {
                         child: Center(
                             child: Text(
                           topic.title,
-                          style: TextStyle(height: 1.2, fontWeight: FontWeight.bold, fontSize: 40),
+                          style: TextStyle(
+                              height: 1.2, fontWeight: FontWeight.bold, fontSize: 40, color: Colors.grey[200]),
                           overflow: TextOverflow.fade,
                           softWrap: false,
                         )),

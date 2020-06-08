@@ -34,22 +34,6 @@ class MyApp extends StatelessWidget {
       ],
       supportedLocales: EasyLocalization.of(context).supportedLocales,
       locale: EasyLocalization.of(context).locale,
-      // Theme
-      theme: ThemeData(
-        fontFamily: 'Nunito',
-        bottomAppBarTheme: BottomAppBarTheme(
-          color: Colors.black38,
-        ),
-        brightness: Brightness.dark,
-        textTheme: TextTheme(
-          bodyText1: TextStyle(fontSize: 18),
-          bodyText2: TextStyle(fontSize: 16),
-          button: TextStyle(letterSpacing: 1.5, fontWeight: FontWeight.bold),
-          headline1: TextStyle(fontWeight: FontWeight.bold),
-          subtitle1: TextStyle(color: Colors.grey),
-        ),
-        buttonTheme: ButtonThemeData(),
-      ),
     );
   }
 }

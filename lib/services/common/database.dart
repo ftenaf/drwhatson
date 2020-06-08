@@ -1,12 +1,15 @@
 import 'dart:async';
 
+import 'package:flutter/foundation.dart';
+import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sembast/sembast.dart';
 import 'package:sembast/sembast_io.dart';
+import 'package:sembast_web/sembast_web.dart';
 
 class AppDatabase {
   static final AppDatabase _singleton = AppDatabase._();
-
+  static final _dbfilename = 'covidbuster.db';
   static AppDatabase get instance => _singleton;
   Completer<Database> _dbOpenCompleter;
 
@@ -21,11 +24,15 @@ class AppDatabase {
   }
 
   Future _openDatabase() async {
-    final appDocumentDir = await getApplicationDocumentsDirectory();
-    // /platform-specific-directory/covidbuster.db
-    final dbPath = appDocumentDir.path + 'covidbuster.db';
-
-    final database = await databaseFactoryIo.openDatabase(dbPath);
-    _dbOpenCompleter.complete(database);
+    if (kIsWeb) {
+      var factory = databaseFactoryWeb;
+      Database db = await factory.openDatabase(_dbfilename);
+      _dbOpenCompleter.complete(db);
+    } else {
+      final appDocumentDir = await getApplicationDocumentsDirectory();
+      final dbPath = join(appDocumentDir.path, _dbfilename);
+      final db = await databaseFactoryIo.openDatabase(dbPath);
+      _dbOpenCompleter.complete(db);
+    }
   }
 }

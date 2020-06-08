@@ -28,9 +28,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("homePage.appBarTitle".tr()),
-      ),
+      appBar: AppBar(title: Text("homePage.appBarTitle".tr()), backgroundColor: Colors.blue),
+      backgroundColor: Colors.grey[400],
       body: FutureBuilder<Profile>(
           future: _profile,
           builder: (context, snap) {
@@ -45,6 +44,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     child: Column(
                       children: <Widget>[
                         Text("homePage.hello".tr()),
+                        Text(
+                          'profile.points',
+                          textAlign: TextAlign.center,
+                        ).tr(namedArgs: {'points': model.points.toString()}),
                         RaisedButton(
                           child: Text("homePage.selectLanguage".tr()),
                           onPressed: () => _showSelectLanguageDialog(),

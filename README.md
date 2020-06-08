@@ -2,6 +2,7 @@
 Flutter Application to make quizzes based on different health related topics, especially on Covid-19
 
 Cada Test contiene una serie de preguntas y está agrupado en Temas de interés. 
+ 
  Un Tema tiene como propiedades:
 * id: Identificador unívoco, NO debe repetirse en ningún caso.
 * title: el título que aparecerá en su tarjeta

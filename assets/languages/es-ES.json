@@ -22,6 +22,7 @@
       "continue": "Continuar"
     },
     "profile": {
+      "points": "Ha obtenido {points} puntos.",
       "continue": "Continuar",
       "save": "Guardar",
       "saved": "Guardado",

@@ -231,7 +231,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           try {
                             profile.age = int.parse(_ageController.text);
                             model.saveProfile(profile);
-                            _showSavedConfirmation(profile);
+                            _showSavedConfirmation();
                           } catch (e) {
                             print(e.code);
                           }
@@ -242,13 +242,18 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 )))));
   }
 
-  void _showSavedConfirmation(activeContact) {
+  void _showSavedConfirmation() {
     showDialog(
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
           title: Text('profile.saved'.tr()),
           actions: <Widget>[
+            Text(
+              'profile.points',
+              textAlign: TextAlign.center,
+            ).tr(namedArgs: {'points': model.points.toString()}),
+            Divider(height: 1),
             FlatButton(
               child: Text('profile.continue'.tr()),
               onPressed: () {

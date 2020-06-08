@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/logic/models/profile.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/logic/view_models/profile_vm.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/services/profile/profile_service.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/services/profile/profile_service_impl.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/languages/de-DE.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/de-DE.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/languages/en-US.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/en-US.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/languages/es-ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/languages/es-ES.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/services/service_locator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/service_locator.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/services/topics/topic_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/topics/topic_service.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/services/topics/topic_service_impl.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/topics/topic_service_impl.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/views/profile_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/profile_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,22 +108,22 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state width="438" height="466" key="DebuggerActiveHint/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591613609561" />
-    <state width="1311" height="516" key="GridCell.Tab.0.bottom" timestamp="1591618647050">
+    <state width="1311" height="516" key="GridCell.Tab.0.bottom" timestamp="1591619431409">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.bottom/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591618647050" />
-    <state width="1311" height="516" key="GridCell.Tab.0.center" timestamp="1591618647049">
+    <state width="1311" height="516" key="GridCell.Tab.0.bottom/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591619431409" />
+    <state width="1311" height="516" key="GridCell.Tab.0.center" timestamp="1591619431409">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.center/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591618647049" />
-    <state width="1311" height="516" key="GridCell.Tab.0.left" timestamp="1591618647049">
+    <state width="1311" height="516" key="GridCell.Tab.0.center/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591619431409" />
+    <state width="1311" height="516" key="GridCell.Tab.0.left" timestamp="1591619431409">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.left/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591618647049" />
-    <state width="1311" height="516" key="GridCell.Tab.0.right" timestamp="1591618647049">
+    <state width="1311" height="516" key="GridCell.Tab.0.left/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591619431409" />
+    <state width="1311" height="516" key="GridCell.Tab.0.right" timestamp="1591619431409">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1311" height="516" key="GridCell.Tab.0.right/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591618647049" />
+    <state width="1311" height="516" key="GridCell.Tab.0.right/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591619431409" />
     <state x="333" y="457" key="Vcs.Push.Dialog.v2" timestamp="1591562120457">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -208,6 +199,16 @@
           <url>file://$PROJECT_DIR$/lib/services/profile/profile_service_impl.dart</url>
           <line>14</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/views/profile_screen.dart</url>
+          <line>136</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/views/profile_screen.dart</url>
+          <line>156</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,13 +1,13 @@
-# Advertencia
+# Warning
 
-Esta aproximación es solo un marco de reﬂexión para analizar con cuánta prudencia o demora podemos adaptar las medidas generales a nuestro riesgo individual. 
+This approach is only a framework from reﬂexión to analyze how carefully or late we can adapt the general measures to our individual risk. 
 
-Los factores de riesgo están extraídos de los estudios hasta la fecha con COVID-19 y de la ﬁsiopatología conocida de factores de riesgo para infecciones graves virales, y en concreto para SARS-CoV-2. 
+The risk factors are drawn from the studies to date with COVID-19 and the known physiopathology risk factors for severe viral infections, and in particular for SARS-CoV-2. 
 
-Estas reﬂexiones no sustituyen a un consejo médico, si tienes una patología de especial riesgo, seguro que tu médico/a puede aclararte mejor las dudas. 
+These thoughts do not replace medical advice, if you have a pathology of special risk, sure that your doctor can clarify the doubts to you better. 
 
-Quizá te parezcan que son recomendaciones excesivamente prudentes… En mi experiencia no lo son: la recomendación de ir 1-2 semanas por detrás no es tan agresiva y con todo lo que queda por conocer, si he de pecar de algo, será de prudente. 
+You may think that these are excessively prudent recommendations, but in my experience they are not: the recommendation to go 1-2 weeks behind is not so aggressive and with all that remains to be known, if I am to sin, it will be prudent. 
 
-Y será por tu bien.
+And it will be for your own good.
 
-[Resumen de la situación](https://www.notion.so/Semana-4-10-Mayo-fccb02e9641b496a81e59350fa9c15f7)
+[Summary of the ssituation](https://www.notion.so/Semana-4-10-Mayo-fccb02e9641b496a81e59350fa9c15f7)

@@ -26,7 +26,7 @@ class AboutScreen extends StatelessWidget {
               return Markdown(
                 data: snapshot.data,
                 styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context)).copyWith(
-                  textAlign: WrapAlignment.spaceEvenly,
+                  textAlign: WrapAlignment.spaceBetween,
                   unorderedListAlign: WrapAlignment.center,
                   orderedListAlign: WrapAlignment.center,
                   p: TextStyle(color: Colors.black, fontWeight: FontWeight.w400),

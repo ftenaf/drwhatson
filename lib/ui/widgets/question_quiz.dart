@@ -22,7 +22,10 @@ class QuestionPage extends StatelessWidget {
           child: Container(
             padding: EdgeInsets.all(16),
             alignment: Alignment.center,
-            child: Text(question.question),
+            child: Text(
+              question.question,
+              style: TextStyle(fontSize: 25),
+            ),
           ),
         ),
         Container(
@@ -84,7 +87,7 @@ class QuestionPage extends StatelessWidget {
                       margin: EdgeInsets.only(left: 16),
                       child: Text(
                         answer.value,
-                        style: Theme.of(context).textTheme.bodyText2,
+                        style: TextStyle(fontSize: 25),
                       ),
                     ),
                   )

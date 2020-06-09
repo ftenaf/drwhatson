@@ -7,10 +7,7 @@ class NumberSlider extends StatefulWidget {
   final VoidCallback onNumberSelected;
   final Function(int) onNumberChange;
 
-  NumberSlider(
-      {@required this.answer,
-      @required this.onNumberChange,
-      this.onNumberSelected});
+  NumberSlider({@required this.answer, @required this.onNumberChange, this.onNumberSelected});
 
   @override
   _NumberSliderState createState() => _NumberSliderState();
@@ -28,8 +25,12 @@ class _NumberSliderState extends State<NumberSlider> {
           padding: const EdgeInsets.symmetric(horizontal: 20.0),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children:
-                List.generate(widget.answer.max, (index) => Text("$index")),
+            children: List.generate(
+                widget.answer.max,
+                (index) => Text(
+                      "$index",
+                      style: TextStyle(fontSize: 25),
+                    )),
           ),
         ),
         Slider(

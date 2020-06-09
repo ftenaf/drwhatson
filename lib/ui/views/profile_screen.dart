@@ -36,7 +36,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             if (snap.hasError) return Text("Error: ${snap.error}");
             if (snap.hasData) {
               var profileData = snap.data;
-              _ageController.text = profileData.age.toString();
+              _ageController.text = profileData.age > 0 ? profileData.age.toString() : "";
               return Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: Container(

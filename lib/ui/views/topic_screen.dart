@@ -45,7 +45,7 @@ class QuizList extends StatelessWidget {
         children: topic.quizzes.map((quiz) {
       return Card(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
-        color: Colors.blue[300],
+        color: Colors.blue[200],
         elevation: 15,
         margin: EdgeInsets.all(4),
         child: InkWell(

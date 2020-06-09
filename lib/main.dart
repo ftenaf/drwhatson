@@ -42,12 +42,13 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         appBarTheme: AppBarTheme(color: Colors.blue),
         textTheme: TextTheme(
-          headline1: TextStyle(color: Colors.black45, fontWeight: FontWeight.bold),
+          headline1: TextStyle(color: Colors.red[900], fontWeight: FontWeight.bold),
           bodyText1: TextStyle(fontSize: 18),
           bodyText2: TextStyle(fontSize: 16),
           button: TextStyle(letterSpacing: 1.5, fontWeight: FontWeight.bold),
           headline2: TextStyle(fontWeight: FontWeight.bold),
-          subtitle2: TextStyle(color: Colors.black38),
+          subtitle2: TextStyle(color: Colors.black38, fontSize: 15),
+          subtitle1: TextStyle(color: Colors.black, fontSize: 20),
         ),
       ),
     );

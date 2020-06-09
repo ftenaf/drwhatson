@@ -17,6 +17,7 @@ class TopicTile extends StatelessWidget {
         child: Card(
           clipBehavior: Clip.antiAlias,
           color: Colors.blue[900],
+          elevation: 4,
           child: InkWell(
             onTap: () {
               Navigator.of(context).push(

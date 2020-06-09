@@ -40,14 +40,15 @@ class MyApp extends StatelessWidget {
           color: Colors.black38,
         ),
         brightness: Brightness.light,
+        appBarTheme: AppBarTheme(color: Colors.blue),
         textTheme: TextTheme(
+          headline1: TextStyle(color: Colors.black45, fontWeight: FontWeight.bold),
           bodyText1: TextStyle(fontSize: 18),
           bodyText2: TextStyle(fontSize: 16),
           button: TextStyle(letterSpacing: 1.5, fontWeight: FontWeight.bold),
-          headline1: TextStyle(fontWeight: FontWeight.bold),
-          subtitle1: TextStyle(color: Colors.grey),
+          headline2: TextStyle(fontWeight: FontWeight.bold),
+          subtitle2: TextStyle(color: Colors.black38),
         ),
-        buttonTheme: ButtonThemeData(),
       ),
     );
   }

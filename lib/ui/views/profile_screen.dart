@@ -28,8 +28,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("homePage.appBarTitle".tr()), backgroundColor: Colors.blue),
-      backgroundColor: Colors.grey[200],
+      appBar: AppBar(title: Text("homePage.appBarTitle".tr())),
       body: FutureBuilder<Profile>(
           future: _profile,
           builder: (context, snap) {

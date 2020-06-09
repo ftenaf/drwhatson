@@ -74,6 +74,7 @@ class QuizScreen extends StatelessWidget {
             return LoadingScreen();
           } else {
             Quiz quiz = snap.data;
+            model.activeQuiz = quiz;
             return Scaffold(
               appBar: AppBar(
                 title: AnimatedProgressbar(value: state.progress),
@@ -92,7 +93,7 @@ class QuizScreen extends StatelessWidget {
                   if (idx == 0) {
                     return StartPage(quiz: quiz);
                   } else if (idx == quiz.questions.length + 1) {
-                    return CongratsPage(quiz: quiz);
+                    return CongratsPage(topicsVM: model);
                   } else {
                     return QuestionPage(question: quiz.questions[idx - 1]);
                   }

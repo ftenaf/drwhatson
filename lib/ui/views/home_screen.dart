@@ -20,14 +20,13 @@ class _TopicsScreenState extends State<TopicsScreen> {
     super.initState();
   }
 
+//style: Theme.of(context).textTheme.subtitle1
   @override
   Widget build(BuildContext context) {
     topics = model.getTopics(EasyLocalization.of(context).locale.toString());
     return Scaffold(
-      backgroundColor: Colors.grey[200],
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        backgroundColor: Colors.blue[900],
         title: Text("homePage.topics".tr()),
         actions: [
           IconButton(

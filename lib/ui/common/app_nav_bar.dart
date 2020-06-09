@@ -23,9 +23,9 @@ class _AppNavBarState extends State<AppNavBar> {
     double sizeIcon = 40;
     return Scaffold(
         bottomNavigationBar: CurvedNavigationBar(
-          color: Colors.blue,
-          backgroundColor: Colors.grey[200],
-          buttonBackgroundColor: Colors.white70,
+          color: Theme.of(context).appBarTheme.color,
+          backgroundColor: Theme.of(context).backgroundColor,
+          buttonBackgroundColor: Colors.blue[600],
           animationDuration: Duration(milliseconds: 400),
           animationCurve: Curves.elasticInOut,
           height: 50,

@@ -103,7 +103,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       },
                     ),
                     Row(children: [
-                      Text('profile.autoinmune'.tr()),
                       Checkbox(
                         value: profile.autoinmune,
                         onChanged: (bool value) async {
@@ -112,9 +111,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
+                      Text('profile.autoinmune'.tr()),
                     ]),
                     Row(children: [
-                      Text('profile.others'.tr()),
                       Checkbox(
                         value: profile.others,
                         onChanged: (bool value) async {
@@ -123,9 +122,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
+                      Text('profile.others'.tr()),
                     ]),
                     Row(children: [
-                      Text('profile.inmunosuppressedhigh'.tr()),
                       Checkbox(
                         value: profile.inmunosuppressedhigh,
                         onChanged: (bool value) async {
@@ -134,9 +133,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
+                      Text('profile.inmunosuppressedhigh'.tr()),
                     ]),
                     Row(children: [
-                      Text('profile.inmunosuppressedlow'.tr()),
                       Checkbox(
                         value: profile.inmunosuppressedlow,
                         onChanged: (bool value) async {
@@ -145,9 +144,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
+                      Text('profile.inmunosuppressedlow'.tr()),
                     ]),
                     Row(children: [
-                      Text('profile.chemotherapy'.tr()),
                       Checkbox(
                         value: profile.chemotherapy,
                         onChanged: (bool value) async {
@@ -156,9 +155,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
+                      Text('profile.chemotherapy'.tr()),
                     ]),
                     Row(children: [
-                      Text('profile.fat'.tr()),
                       Checkbox(
                         value: profile.fat,
                         onChanged: (bool value) async {
@@ -167,9 +166,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
+                      Text('profile.fat'.tr()),
                     ]),
                     Row(children: [
-                      Text('profile.sex'.tr()),
                       Checkbox(
                         value: profile.sex,
                         onChanged: (bool value) async {
@@ -178,9 +177,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
+                      Text('profile.sex'.tr()),
                     ]),
                     Row(children: [
-                      Text('profile.smoker'.tr()),
                       Checkbox(
                         value: profile.smoker,
                         onChanged: (bool value) async {
@@ -189,9 +188,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
+                      Text('profile.smoker'.tr()),
                     ]),
                     Row(children: [
-                      Text('profile.epoc'.tr()),
                       Checkbox(
                         value: profile.epoc,
                         onChanged: (bool value) async {
@@ -200,9 +199,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
+                      Text('profile.epoc'.tr()),
                     ]),
                     Row(children: [
-                      Text('profile.hypertension'.tr()),
                       Checkbox(
                         value: profile.hypertension,
                         onChanged: (bool value) async {
@@ -211,9 +210,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
+                      Text('profile.hypertension'.tr()),
                     ]),
                     Row(children: [
-                      Text('profile.heartDisease'.tr()),
                       Checkbox(
                         value: profile.heartDisease,
                         onChanged: (bool value) async {
@@ -222,9 +221,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
+                      Text('profile.heartDisease'.tr()),
                     ]),
                     Row(children: [
-                      Text('profile.publicService'.tr()),
                       Checkbox(
                         value: profile.publicService,
                         onChanged: (bool value) async {
@@ -233,9 +232,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
+                      Text('profile.publicService'.tr()),
                     ]),
                     Row(children: [
-                      Text('profile.elderPartner'.tr()),
                       Checkbox(
                         value: profile.elderPartner,
                         onChanged: (bool value) async {
@@ -243,10 +242,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             profile.elderPartner = value;
                           });
                         },
-                      )
+                      ),
+                      Text('profile.elderPartner'.tr()),
                     ]),
                     Row(children: [
-                      Text('profile.ig'.tr()),
                       Checkbox(
                         value: profile.ig,
                         onChanged: (bool value) async {
@@ -255,9 +254,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
+                      Text('profile.ig'.tr()),
                     ]),
                     Row(children: [
-                      Text('profile.likelypassed'.tr()),
                       Checkbox(
                         value: profile.likelypassed,
                         onChanged: (bool value) async {
@@ -266,6 +265,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
+                      Text('profile.likelypassed'.tr()),
                     ]),
                     RaisedButton(
                       child: Text('profile.save'.tr()),

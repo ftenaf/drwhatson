@@ -28,7 +28,7 @@ class ProfileViewModel with ChangeNotifier {
   double get points {
     double pts = 0;
     if (_profile != null) {
-      pts = comorbilityPoints;
+      pts = comorbidityPoints();
       if (_profile.publicService) pts -= 2;
       if (_profile.elderPartner) pts -= 2;
       if (_profile.ig) pts += 5;
@@ -38,7 +38,7 @@ class ProfileViewModel with ChangeNotifier {
     return pts;
   }
 
-  double get comorbilityPoints {
+  double comorbidityPoints() {
     int pts = 0;
     if (_profile != null) {
       if (_profile.age > 80) pts += 3;
@@ -59,5 +59,6 @@ class ProfileViewModel with ChangeNotifier {
     if (pts > 5) return -5;
     if (pts > 2 && pts < 6) return -5;
     if (pts < 3) return -1;
+    return 0;
   }
 }

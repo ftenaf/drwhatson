@@ -42,14 +42,25 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   child: Center(
                     child: Column(
                       children: <Widget>[
-                        Text("homePage.hello".tr()),
                         Text(
                           'profile.points',
+                          style: TextStyle(fontSize: 30),
                           textAlign: TextAlign.center,
                         ).tr(namedArgs: {'points': model.points.toString()}),
+                        Divider(),
+                        Text(
+                          (model.comorbidityPoints() == -5
+                              ? "profile.veryHighRisk".tr()
+                              : (model.comorbidityPoints() == -2.5)
+                                  ? "profile.highRisk".tr()
+                                  : "profile.moderatedRisk".tr()),
+                          style: TextStyle(fontSize: 30),
+                          textAlign: TextAlign.center,
+                        ),
                         RaisedButton(
                           child: Text("homePage.selectLanguage".tr()),
                           onPressed: () => _showSelectLanguageDialog(),
+                          color: Colors.blueAccent,
                         ),
                         Expanded(
                           child: editForm(profileData),
@@ -91,6 +102,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         labelText: 'profile.age'.tr(),
                         hintText: 'profile.age'.tr(),
                       ),
+                      onFieldSubmitted: (value) async {
+                        setState(() {
+                          profile.age = int.parse(value);
+                        });
+                      },
                       validator: (value) {
                         if (value.isEmpty) {
                           return 'Required.';
@@ -271,7 +287,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       )),
                     ]),
                     RaisedButton(
-                      child: Text('profile.save'.tr()),
+                      child: Text(
+                        'profile.save'.tr(),
+                        style: TextStyle(fontSize: 30),
+                      ),
+                      color: Colors.green,
                       onPressed: () async {
                         setState(() {
                           ageError = null;

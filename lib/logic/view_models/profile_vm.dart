@@ -56,9 +56,9 @@ class ProfileViewModel with ChangeNotifier {
       if (_profile.autoinmune) pts += 1;
       if (_profile.publicService) pts -= 2;
     }
-    if (pts > 5) return -5;
-    if (pts > 2 && pts < 6) return -5;
-    if (pts < 3) return -1;
+    if (pts > 5) return -5; // Riesgo muy alto
+    if (pts > 2 && pts < 6) return -2.5; // Riesgo alto
+    if (pts < 3) return -1; //Riesgo moderado
     return 0;
   }
 }

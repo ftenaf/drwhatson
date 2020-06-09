@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/common/number_slide.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/common/number_slide.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/common/app_nav_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/common/app_nav_bar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/about_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/about_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/profile_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/profile_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/widgets/question_quiz.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/question_quiz.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,10 +152,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="710" y="320" width="1302" height="932" key="com.android.tools.idea.avdmanager.AvdListDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591689752955" />
-    <state x="155" y="100" width="1171" height="1247" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591641080330">
+    <state x="155" y="100" width="1171" height="1247" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591694611586">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="155" y="100" width="1171" height="1247" key="com.intellij.history.integration.ui.views.FileHistoryDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591641080330" />
+    <state x="155" y="100" width="1171" height="1247" key="com.intellij.history.integration.ui.views.FileHistoryDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591694611586" />
     <state x="1057" y="610" key="com.intellij.ide.util.TipDialog" timestamp="1591689699566">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>

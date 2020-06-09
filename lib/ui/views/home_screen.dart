@@ -24,7 +24,7 @@ class _TopicsScreenState extends State<TopicsScreen> {
   Widget build(BuildContext context) {
     topics = model.getTopics(EasyLocalization.of(context).locale.toString());
     return Scaffold(
-      backgroundColor: Colors.grey[400],
+      backgroundColor: Colors.grey[200],
       appBar: AppBar(
         automaticallyImplyLeading: false,
         backgroundColor: Colors.blue[900],

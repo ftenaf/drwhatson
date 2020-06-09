@@ -18,7 +18,7 @@ class AboutScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(title: Text('homePage.about'.tr()), backgroundColor: Colors.blue),
-      backgroundColor: Colors.grey[400],
+      backgroundColor: Colors.grey[200],
       body: FutureBuilder(
           future: rootBundle.loadString("assets/data/about_${EasyLocalization.of(context).locale.toString()}.md"),
           builder: (BuildContext context, AsyncSnapshot<String> snapshot) {

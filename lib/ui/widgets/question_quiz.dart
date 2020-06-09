@@ -25,6 +25,7 @@ class QuestionPage extends StatelessWidget {
             child: Text(
               question.question,
               style: TextStyle(fontSize: 25),
+              textAlign: TextAlign.justify,
             ),
           ),
         ),

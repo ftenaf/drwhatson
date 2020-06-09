@@ -29,7 +29,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("homePage.appBarTitle".tr()), backgroundColor: Colors.blue),
-      backgroundColor: Colors.grey[400],
+      backgroundColor: Colors.grey[200],
       body: FutureBuilder<Profile>(
           future: _profile,
           builder: (context, snap) {
@@ -111,7 +111,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Text('profile.autoinmune'.tr()),
+                      Expanded(child: Text('profile.autoinmune'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -122,7 +122,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Text('profile.others'.tr()),
+                      Expanded(child: Text('profile.others'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -133,7 +133,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Text('profile.inmunosuppressedhigh'.tr()),
+                      Expanded(child: Text('profile.inmunosuppressedhigh'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -144,7 +144,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Text('profile.inmunosuppressedlow'.tr()),
+                      Expanded(child: Text('profile.inmunosuppressedlow'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -155,7 +155,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Text('profile.chemotherapy'.tr()),
+                      Expanded(child: Text('profile.chemotherapy'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -166,7 +166,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Text('profile.fat'.tr()),
+                      Expanded(child: Text('profile.fat'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -177,7 +177,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Text('profile.sex'.tr()),
+                      Expanded(child: Text('profile.sex'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -188,7 +188,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Text('profile.smoker'.tr()),
+                      Expanded(child: Text('profile.smoker'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -199,7 +199,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Text('profile.epoc'.tr()),
+                      Expanded(child: Text('profile.epoc'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -210,7 +210,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Text('profile.hypertension'.tr()),
+                      Expanded(child: Text('profile.hypertension'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -221,7 +221,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Text('profile.heartDisease'.tr()),
+                      Expanded(child: Text('profile.heartDisease'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -232,7 +232,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Text('profile.publicService'.tr()),
+                      Expanded(child: Text('profile.publicService'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -243,7 +243,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Text('profile.elderPartner'.tr()),
+                      Expanded(child: Text('profile.elderPartner'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -254,7 +254,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Text('profile.ig'.tr()),
+                      Expanded(child: Text('profile.ig'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -265,7 +265,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Text('profile.likelypassed'.tr()),
+                      Expanded(
+                          child: Text(
+                        'profile.likelypassed'.tr(),
+                        textAlign: TextAlign.justify,
+                      )),
                     ]),
                     RaisedButton(
                       child: Text('profile.save'.tr()),

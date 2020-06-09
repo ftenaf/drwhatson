@@ -109,6 +109,7 @@ class QuestionPage extends StatelessWidget {
         return Container(
           height: 700,
           padding: EdgeInsets.all(16),
+          color: Colors.white70,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             crossAxisAlignment: CrossAxisAlignment.center,

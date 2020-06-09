@@ -1,6 +1,6 @@
 import 'package:covid_buster_lite/services/common/language_helper.dart';
 import 'package:covid_buster_lite/services/service_locator.dart';
-import 'package:covid_buster_lite/ui/common/app_nav_bar.dart';
+import 'package:covid_buster_lite/ui/views/splash_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'homePage.appBarTitle'.tr(),
       debugShowCheckedModeBanner: false,
-      home: AppNavBar(),
+      home: SplashScreen(), //AppNavBar(),
       localizationsDelegates: [
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         appBarTheme: AppBarTheme(color: Colors.blue),
         textTheme: TextTheme(
-          headline1: TextStyle(color: Colors.red[900], fontWeight: FontWeight.bold),
+          headline1: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           bodyText1: TextStyle(fontSize: 18),
           bodyText2: TextStyle(fontSize: 16),
           button: TextStyle(letterSpacing: 1.5, fontWeight: FontWeight.bold),

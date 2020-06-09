@@ -62,6 +62,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           onPressed: () => _showSelectLanguageDialog(),
                           color: Colors.blueAccent,
                         ),
+                        Divider(),
                         Expanded(
                           child: editForm(profileData),
                         ),
@@ -286,6 +287,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         textAlign: TextAlign.justify,
                       )),
                     ]),
+                    Divider(),
                     RaisedButton(
                       child: Text(
                         'profile.save'.tr(),

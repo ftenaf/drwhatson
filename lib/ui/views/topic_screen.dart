@@ -26,7 +26,7 @@ class TopicScreen extends StatelessWidget {
             Text(
               topic.title,
               textAlign: TextAlign.right,
-              style: TextStyle(height: 2, fontSize: 40, fontWeight: FontWeight.bold, color: Colors.blue[700]),
+              style: TextStyle(height: 2, fontSize: 40, fontWeight: FontWeight.bold, color: Colors.purple),
             ),
             QuizList(topic: topic)
           ])),
@@ -44,9 +44,9 @@ class QuizList extends StatelessWidget {
     return Column(
         children: topic.quizzes.map((quiz) {
       return Card(
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
-        color: Colors.blue[200],
-        elevation: 15,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+        color: Colors.deepPurple,
+        elevation: 10,
         margin: EdgeInsets.all(4),
         child: InkWell(
           onTap: () {

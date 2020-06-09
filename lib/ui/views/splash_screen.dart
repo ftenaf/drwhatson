@@ -23,15 +23,27 @@ class _SplashScreenState extends State<SplashScreen> {
                   begin: Alignment.topRight, end: Alignment.bottomLeft, colors: [Colors.blue, Colors.red])),
         ),
         Center(
-            child: Container(
-          padding: EdgeInsets.all(16.0),
-          child: Text(
-            'Covid Buster',
-            style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold, color: Colors.white, shadows: <Shadow>[
-              Shadow(blurRadius: 18.0, color: Colors.black87, offset: Offset.fromDirection(120, 12))
-            ]),
-          ),
-        )),
+            child:
+                /*Shimmer.fromColors(
+                period: Duration(milliseconds: 1500),
+                baseColor: Color(0xff77f00ff),
+                highlightColor: Color(0xffe100ff),
+                child:*/
+                Container(
+                    padding: EdgeInsets.all(16.0),
+                    child: Container(
+                      padding: EdgeInsets.all(16.0),
+                      child: Text(
+                        'Covid Buster',
+                        style: TextStyle(
+                            fontSize: 50,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            shadows: <Shadow>[
+                              Shadow(blurRadius: 18.0, color: Colors.black87, offset: Offset.fromDirection(120, 12))
+                            ]),
+                      ),
+                    ))),
       ]),
     );
   }

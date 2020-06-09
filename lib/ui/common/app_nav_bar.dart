@@ -1,8 +1,7 @@
 import 'package:covid_buster_lite/ui/views/about_screen.dart';
+import 'package:covid_buster_lite/ui/views/calendar_screen.dart';
 import 'package:covid_buster_lite/ui/views/home_screen.dart';
 import 'package:covid_buster_lite/ui/views/profile_screen.dart';
-import 'package:covid_buster_lite/ui/views/quiz_screen.dart';
-import 'package:covid_buster_lite/ui/views/topic_screen.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +14,7 @@ class AppNavBar extends StatefulWidget {
 
 class _AppNavBarState extends State<AppNavBar> {
   int _pageIndex = 0;
-  final _pages = [TopicsScreen(), AboutScreen(), ProfileScreen(), TopicScreen(), QuizScreen()];
+  final _pages = [TopicsScreen(), CalendarScreen(), AboutScreen(), ProfileScreen()];
 
   @override
   Widget build(BuildContext context) {
@@ -33,6 +32,11 @@ class _AppNavBarState extends State<AppNavBar> {
           items: <Widget>[
             Icon(
               Icons.school,
+              size: sizeIcon,
+              color: colorIcon,
+            ),
+            Icon(
+              Icons.calendar_today,
               size: sizeIcon,
               color: colorIcon,
             ),

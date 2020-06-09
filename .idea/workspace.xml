@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/ui/views/splash_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/views/calendar_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/widgets/add_calendar_data.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/views/profile_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/profile_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/question_quiz.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/question_quiz.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/common/app_nav_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/common/app_nav_bar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/views/splash_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/splash_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,10 +113,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="817" y="441" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591383135952" />
-    <state x="554" y="436" key="#com.intellij.ide.util.MemberChooser" timestamp="1591719428004">
+    <state x="554" y="436" key="#com.intellij.ide.util.MemberChooser" timestamp="1591724144529">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="554" y="436" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591719428004" />
+    <state x="554" y="436" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591724144529" />
     <state x="284" y="477" key="#xdebugger.XInspectDialog" timestamp="1591639307321">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -129,26 +129,26 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state width="472" height="466" key="DebuggerActiveHint/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591638740531" />
-    <state width="1312" height="513" key="GridCell.Tab.0.bottom" timestamp="1591721300616">
+    <state width="1312" height="513" key="GridCell.Tab.0.bottom" timestamp="1591723697859">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1312" height="513" key="GridCell.Tab.0.bottom/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591721300616" />
-    <state width="1312" height="513" key="GridCell.Tab.0.center" timestamp="1591721300615">
+    <state width="1312" height="513" key="GridCell.Tab.0.bottom/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591723697859" />
+    <state width="1312" height="513" key="GridCell.Tab.0.center" timestamp="1591723697858">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1312" height="513" key="GridCell.Tab.0.center/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591721300615" />
-    <state width="1312" height="513" key="GridCell.Tab.0.left" timestamp="1591721300615">
+    <state width="1312" height="513" key="GridCell.Tab.0.center/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591723697858" />
+    <state width="1312" height="513" key="GridCell.Tab.0.left" timestamp="1591723697858">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1312" height="513" key="GridCell.Tab.0.left/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591721300615" />
-    <state width="1312" height="513" key="GridCell.Tab.0.right" timestamp="1591721300615">
+    <state width="1312" height="513" key="GridCell.Tab.0.left/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591723697858" />
+    <state width="1312" height="513" key="GridCell.Tab.0.right" timestamp="1591723697858">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1312" height="513" key="GridCell.Tab.0.right/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591721300615" />
-    <state x="333" y="457" key="Vcs.Push.Dialog.v2" timestamp="1591562120457">
+    <state width="1312" height="513" key="GridCell.Tab.0.right/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591723697858" />
+    <state x="333" y="457" key="Vcs.Push.Dialog.v2" timestamp="1591723589728">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="333" y="457" key="Vcs.Push.Dialog.v2/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591562120457" />
+    <state x="333" y="457" key="Vcs.Push.Dialog.v2/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591723589728" />
     <state width="631" height="723" key="XDebugger.FullValuePopup" timestamp="1591639306939">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -157,14 +157,18 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="710" y="320" width="1302" height="932" key="com.android.tools.idea.avdmanager.AvdListDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591689752955" />
-    <state x="155" y="100" width="1171" height="1247" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591694611586">
+    <state x="155" y="100" width="1171" height="1247" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591723434710">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="155" y="100" width="1171" height="1247" key="com.intellij.history.integration.ui.views.FileHistoryDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591694611586" />
+    <state x="155" y="100" width="1171" height="1247" key="com.intellij.history.integration.ui.views.FileHistoryDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591723434710" />
     <state x="1057" y="610" key="com.intellij.ide.util.TipDialog" timestamp="1591689699566">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1057" y="610" key="com.intellij.ide.util.TipDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591689699566" />
+    <state x="380" y="335" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591724132553">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="380" y="335" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591724132553" />
     <state x="309" y="460" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591607578917">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -219,6 +223,11 @@
           <url>file://$PROJECT_DIR$/lib/services/profile/profile_service_impl.dart</url>
           <line>14</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/views/calendar_screen.dart</url>
+          <line>30</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

@@ -16,7 +16,7 @@ class TopicTile extends StatelessWidget {
         tag: topic.id,
         child: Card(
           clipBehavior: Clip.antiAlias,
-          color: Colors.blue[900],
+          color: Colors.deepPurple,
           elevation: 4,
           child: InkWell(
             onTap: () {

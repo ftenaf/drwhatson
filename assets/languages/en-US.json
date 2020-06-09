@@ -14,6 +14,7 @@
   "quiz":{
     "start": "Start Quiz!",
     "congrats": "Congrats! You completed the {title} quiz with {totalPoints} points {result}",
+    "result": "{result}",
     "right": "Good Job!",
     "wrong": "Wrong",
     "markcompleted": " Mark Complete!",

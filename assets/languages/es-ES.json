@@ -13,7 +13,8 @@
     },
     "quiz":{
       "start": "Empezar!",
-      "congrats": "Enhorabuena! Has completado el test {title} con un total de {totalPoints} puntos: {result}",
+      "congrats": "Enhorabuena! Has completado el test {title} con un total de {totalPoints} puntos",
+      "result": "{result}",
       "right": "Correcto!",
       "wrong": "Error",
       "markcompleted": " Marcar Finalizado!",

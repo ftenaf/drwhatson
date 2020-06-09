@@ -47,24 +47,23 @@ class QuestionPage extends StatelessWidget {
           height: 120,
           margin: EdgeInsets.only(bottom: 10),
           color: Colors.black26,
-          child: InkWell(
-            onTap: () {
-              state.selected = answer;
-              _bottomSheet(context, answer, state);
-            },
-            child: Container(
-              padding: EdgeInsets.all(16),
-              child: Row(
-                children: [
-                  Icon(state.selected == answer ? Icons.check_circle : Icons.remove_circle_outline, size: 30),
-                  NumberSlider(
-                    answer: answer,
-                    onNumberChange: (int val) {
-                      answer.value = val.toString();
+          child: Container(
+            padding: EdgeInsets.all(16),
+            child: Row(
+              children: [
+                InkWell(
+                    onTap: () {
+                      state.selected = answer;
+                      _bottomSheet(context, answer, state);
                     },
-                  )
-                ],
-              ),
+                    child: Icon(state.selected == answer ? Icons.check_circle : Icons.remove_circle_outline, size: 30)),
+                NumberSlider(
+                  answer: answer,
+                  onNumberChange: (int val) {
+                    answer.value = val.toString();
+                  },
+                )
+              ],
             ),
           ),
         );
@@ -130,11 +129,7 @@ class QuestionPage extends StatelessWidget {
                 color: correct ? Colors.green : Colors.red,
                 child: Text(
                   'quiz.continue'.tr(),
-                  style: TextStyle(
-                    color: Colors.white,
-                    letterSpacing: 1.5,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: TextStyle(color: Colors.white, letterSpacing: 1.5, fontWeight: FontWeight.bold, fontSize: 45),
                 ),
                 onPressed: () {
                   state.retry = (state.retry - 1);

@@ -19,16 +19,29 @@ class StartPage extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text(quiz.title, style: Theme.of(context).textTheme.headline1),
+          Text(
+            quiz.title,
+            style: Theme.of(context).textTheme.headline1,
+          ),
           Divider(),
-          Expanded(child: Text(quiz.description)),
+          Expanded(
+              child: Text(
+            quiz.description,
+            style: TextStyle(fontSize: 25),
+          )),
           ButtonBar(
             alignment: MainAxisAlignment.center,
             children: <Widget>[
               FlatButton.icon(
                 onPressed: state.nextPage,
-                label: Text('quiz.start'.tr()),
-                icon: Icon(Icons.poll),
+                label: Text(
+                  'quiz.start'.tr(),
+                  style: TextStyle(fontSize: 45),
+                ),
+                icon: Icon(
+                  Icons.poll,
+                  size: 45,
+                ),
                 color: Colors.green,
               )
             ],

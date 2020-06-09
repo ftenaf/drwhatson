@@ -25,8 +25,15 @@ class CongratsPage extends StatelessWidget {
           Text(
             'quiz.congrats',
             textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 20),
           ).tr(
               namedArgs: {'title': topicsVM.activeQuiz.title, 'totalPoints': totalPoints.toString(), 'result': result}),
+          Divider(),
+          Text(
+            'quiz.result',
+            textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 45),
+          ).tr(namedArgs: {'result': result}),
           Divider(),
           Container(
               alignment: Alignment.center,
@@ -37,7 +44,10 @@ class CongratsPage extends StatelessWidget {
           FlatButton.icon(
             color: Colors.green,
             icon: Icon(Icons.check),
-            label: Text('quiz.markcompleted'.tr()),
+            label: Text(
+              'quiz.markcompleted'.tr(),
+              style: TextStyle(fontSize: 30),
+            ),
             onPressed: () {
               _updateUserReport();
               Navigator.pop(context);

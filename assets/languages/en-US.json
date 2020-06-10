@@ -46,5 +46,12 @@
     "elderPartner": "Live with high risk person",
     "ig": "Inmunzied (IgG+)",
     "others": "Others"
+  },
+  "calendar": {
+    "calendar.title": "Diario",
+    "calendar.sintoma": "Síntoma",
+    "calendar.mes": "Mes",
+    "calendar.semanas": "2 Semanas",
+    "calendar.semanal": "Semanal"
   }
 }

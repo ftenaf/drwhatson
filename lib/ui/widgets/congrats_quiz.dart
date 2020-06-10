@@ -41,18 +41,33 @@ class CongratsPage extends StatelessWidget {
               height: 300,
               child: FlareActor("assets/success.flr", animation: "explode", fit: BoxFit.none)),
           Divider(),
-          FlatButton.icon(
-            color: Colors.green,
-            icon: Icon(Icons.check),
-            label: Text(
-              'quiz.markcompleted'.tr(),
-              style: TextStyle(fontSize: 30),
-            ),
-            onPressed: () {
-              _updateUserReport();
-              Navigator.pop(context);
-            },
-          )
+          RaisedButton(
+              elevation: 4,
+              padding: EdgeInsets.all(25.0),
+              onPressed: () {
+                _updateUserReport();
+                Navigator.pop(context);
+              },
+              color: Colors.green[500],
+              hoverColor: Colors.orange,
+              highlightColor: Colors.pink,
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10.0),
+                  side: BorderSide(color: Colors.grey[800], width: 1, style: BorderStyle.solid)),
+              child: Row(
+                children: [
+                  Icon(Icons.check),
+                  Expanded(
+                    child: Container(
+                      margin: EdgeInsets.only(left: 16),
+                      child: Text(
+                        'quiz.markcompleted'.tr(),
+                        style: TextStyle(fontSize: 30),
+                      ),
+                    ),
+                  )
+                ],
+              ))
         ],
       ),
     );

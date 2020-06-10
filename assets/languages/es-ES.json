@@ -13,7 +13,7 @@
     },
     "quiz":{
       "start": "Empezar!",
-      "congrats": "Enhorabuena! Has completado el test {title} con un total de {totalPoints} puntos",
+      "congrats": "Has completado el test {title} con un total de {totalPoints} puntos",
       "result": "{result}",
       "right": "Correcto!",
       "wrong": "Error",
@@ -46,5 +46,12 @@
       "elderPartner": "Convive con Personas de alto riesgo",
       "ig": "Inmunizado (IgG+)",
       "others": "Otros"
+    },
+    "calendar": {
+      "title": "Diario",
+      "sintoma": "Síntoma",
+      "mes": "Mes",
+      "semanas": "2 Semanas",
+      "semanal": "Semanal"
     }
   }

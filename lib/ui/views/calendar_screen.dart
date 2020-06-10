@@ -17,7 +17,7 @@ final Map<DateTime, List> _holidays = {
 class CalendarScreen extends StatefulWidget {
   CalendarScreen({Key key}) : super(key: key);
 
-  final String title = 'Diario';
+  final String title = 'calendar.title'.tr();
   @override
   _CalendarScreenState createState() => _CalendarScreenState();
 }
@@ -25,6 +25,9 @@ class CalendarScreen extends StatefulWidget {
 class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStateMixin {
   Map<DateTime, List> _events;
   List _selectedEvents;
+  List _items;
+  DateTime _selectedDay;
+
   AnimationController _animationController;
   CalendarController _calendarController;
   final List<String> _list = [
@@ -56,32 +59,17 @@ class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStat
     'Asma'
   ];
 
-  List _items;
-  DateTime _selectedDay;
+  bool isSelected(String item) {
+    return _selectedEvents.contains(item);
+  }
+
   @override
   void initState() {
     super.initState();
     _items = _list.toList();
-    _selectedDay = DateTime.now();
+    _selectedDay = DateTime(DateTime.now().year, DateTime.now().month, DateTime.now().day);
 
-    _events = {
-      _selectedDay.subtract(Duration(days: 30)): ['Event A0', 'Event B0', 'Event C0'],
-      _selectedDay.subtract(Duration(days: 27)): ['Event A1'],
-      _selectedDay.subtract(Duration(days: 20)): ['Event A2', 'Event B2', 'Event C2', 'Event D2'],
-      _selectedDay.subtract(Duration(days: 16)): ['Event A3', 'Event B3'],
-      _selectedDay.subtract(Duration(days: 10)): ['Event A4', 'Event B4', 'Event C4'],
-      _selectedDay.subtract(Duration(days: 4)): ['Event A5', 'Event B5', 'Event C5'],
-      _selectedDay.subtract(Duration(days: 2)): ['Event A6', 'Event B6'],
-      _selectedDay: ['Event A7', 'Event B7', 'Event C7', 'Event D7'],
-      _selectedDay.add(Duration(days: 1)): ['Event A8', 'Event B8', 'Event C8', 'Event D8'],
-      _selectedDay.add(Duration(days: 3)): Set.from(['Event A9', 'Event A9', 'Event B9']).toList(),
-      _selectedDay.add(Duration(days: 7)): ['Event A10', 'Event B10', 'Event C10'],
-      _selectedDay.add(Duration(days: 11)): ['Event A11', 'Event B11'],
-      _selectedDay.add(Duration(days: 17)): ['Event A12', 'Event B12', 'Event C12', 'Event D12'],
-      _selectedDay.add(Duration(days: 22)): ['Event A13', 'Event B13'],
-      _selectedDay.add(Duration(days: 26)): ['Event A14', 'Event B14', 'Event C14'],
-    };
-
+    _events = new Map<DateTime, List>();
     _selectedEvents = _events[_selectedDay] ?? [];
     _calendarController = CalendarController();
 
@@ -101,9 +89,8 @@ class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStat
   }
 
   void _onDaySelected(DateTime day, List events) {
-    print('CALLBACK: _onDaySelected');
     setState(() {
-      _selectedDay = day;
+      _selectedDay = new DateTime(day.year, day.month, day.day);
       _selectedEvents = events;
     });
   }
@@ -126,31 +113,26 @@ class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStat
         mainAxisSize: MainAxisSize.max,
         children: <Widget>[
           _buildTableCalendar(),
-          //_buildTableCalendarWithBuilders(),
           const SizedBox(height: 8.0),
-          /*_buildButtons(),
-          const SizedBox(height: 8.0),*/
           Expanded(child: _buildEventList()),
         ],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
           _bottomSheet(context);
-          //await Navigator.push(context, MaterialPageRoute(builder: (context) => AddCalendarData()));
         },
         child: Icon(Icons.add),
       ),
     );
   }
 
-  // Simple TableCalendar configuration (using Styles)
   Widget _buildTableCalendar() {
     return TableCalendar(
       locale: EasyLocalization.of(context).locale.toString(),
       calendarController: _calendarController,
       events: _events,
       holidays: _holidays,
-      initialSelectedDay: DateTime.now(),
+      initialSelectedDay: DateTime(DateTime.now().year, DateTime.now().month, DateTime.now().day),
       startingDayOfWeek: StartingDayOfWeek.monday,
       initialCalendarFormat: CalendarFormat.twoWeeks,
       availableCalendarFormats: const {
@@ -200,60 +182,72 @@ class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStat
     showModalBottomSheet(
         context: context,
         backgroundColor: Colors.blue[400],
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.vertical(top: Radius.circular(25), bottom: Radius.zero),
+            side: BorderSide(color: Colors.blue[800], width: 1, style: BorderStyle.solid)),
         builder: (BuildContext context) {
-          return ListView(shrinkWrap: true, padding: const EdgeInsets.all(4.0), children: <Widget>[
-            RaisedButton(
-                child: Icon(Icons.add),
-                onPressed: () {
-                  Navigator.pop(context);
-                }),
-            Tags(
-                symmetry: true,
-                columns: 1,
-                horizontalScroll: false,
-                heightHorizontalScroll: 60 * (_fontSize / 14),
-                textField: TagsTextField(
-                  autofocus: false,
-                  hintText: 'Etiqueta',
-                  duplicates: false,
-                  textStyle: TextStyle(
-                    fontSize: _fontSize,
-                    //height: 1
-                  ),
-                  enabled: true,
-                  constraintSuggestion: true,
-                  suggestions: [
-                    "One",
-                    "two",
-                    "android",
-                  ],
-                  onSubmitted: (String str) {
-                    setState(() {
-                      _items.add(str);
-                    });
-                  },
-                ),
-                itemCount: _items.length,
-                itemBuilder: (index) {
-                  final item = _items[index];
-
-                  return ItemTags(
-                    key: Key(index.toString()),
-                    index: index,
-                    title: item,
-                    pressEnabled: true,
-                    activeColor: Colors.blue[800],
-                    singleItem: false,
-                    color: Colors.blue[100],
-                    splashColor: Colors.blue,
-                    combine: ItemTagsCombine.withTextBefore,
-                    textScaleFactor: utf8.encode(item.substring(0, 1)).length > 2 ? 0.8 : 1,
-                    textStyle: TextStyle(
-                      fontSize: _fontSize,
+          return Container(
+              height: MediaQuery.of(context).copyWith().size.height * 0.5,
+              child: ListView(shrinkWrap: true, padding: const EdgeInsets.all(12.0), children: <Widget>[
+                Tags(
+                    symmetry: true,
+                    columns: 1,
+                    horizontalScroll: false,
+                    heightHorizontalScroll: 60 * (_fontSize / 14),
+                    textField: TagsTextField(
+                      autofocus: false,
+                      hintText: 'calendar.sintoma'.tr(),
+                      duplicates: false,
+                      textStyle: TextStyle(
+                        fontSize: _fontSize,
+                        //height: 1
+                      ),
+                      enabled: true,
+                      constraintSuggestion: true,
+                      suggestions: [
+                        "Dermatitis",
+                        "Tension Alta",
+                      ],
+                      onSubmitted: (String str) {
+                        setState(() {});
+                      },
                     ),
-                  );
-                })
-          ]);
+                    itemCount: _items.length,
+                    itemBuilder: (index) {
+                      final item = _items[index];
+                      return ItemTags(
+                        key: Key(index.toString()),
+                        index: index,
+                        title: item,
+                        pressEnabled: true,
+                        active: isSelected(item),
+                        activeColor: Colors.blue[800],
+                        singleItem: false,
+                        color: Colors.blue[100],
+                        splashColor: Colors.blue,
+                        combine: ItemTagsCombine.withTextBefore,
+                        onPressed: (Item x) => onSelectedTag(x),
+                        textScaleFactor: utf8.encode(item.substring(0, 1)).length > 2 ? 0.8 : 1,
+                        textStyle: TextStyle(
+                          fontSize: _fontSize,
+                        ),
+                      );
+                    })
+              ]));
         });
+  }
+
+  onSelectedTag(Item x) {
+    List events = _events[_selectedDay];
+    if (events == null) events = new List<String>();
+    if (x.active) {
+      if (!events.contains(x.title)) events.add(x.title);
+    } else {
+      if (events.contains(x.title)) events.remove(x.title);
+    }
+    setState(() {
+      _events[_selectedDay] = events;
+      _selectedEvents = _events[_selectedDay];
+    });
   }
 }

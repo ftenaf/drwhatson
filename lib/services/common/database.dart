@@ -9,7 +9,7 @@ import 'package:sembast_web/sembast_web.dart';
 
 class AppDatabase {
   static final AppDatabase _singleton = AppDatabase._();
-  static final _dbfilename = 'covidbuster.db';
+  static final _dbfilename = 'drwhatson.db';
   static AppDatabase get instance => _singleton;
   Completer<Database> _dbOpenCompleter;
 

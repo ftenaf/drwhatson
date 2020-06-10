@@ -1,5 +1,5 @@
-import 'package:covid_buster_lite/logic/models/quiz.dart';
-import 'package:covid_buster_lite/ui/views/quiz_screen.dart';
+import 'package:drwhatson/logic/models/quiz.dart';
+import 'package:drwhatson/ui/views/quiz_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -38,7 +38,10 @@ class StartPage extends StatelessWidget {
               highlightColor: Colors.pink,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.0),
-                  side: BorderSide(color: Colors.grey[800], width: 1, style: BorderStyle.solid)),
+                  side: BorderSide(
+                      color: Colors.grey[800],
+                      width: 1,
+                      style: BorderStyle.solid)),
               child: Row(
                 children: [
                   Icon(Icons.poll),

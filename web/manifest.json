@@ -1,11 +1,11 @@
 {
-    "name": "covid_buster_lite",
-    "short_name": "covid_buster_lite",
+    "name": "drwhatson",
+    "short_name": "drwhatson",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A series of quizzes of different health topics to test your self about health knowledge and to track your own health.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

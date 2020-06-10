@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:covid_buster_lite/logic/models/topic.dart';
+import 'package:drwhatson/logic/models/topic.dart';
 
 List<Topic> _topicsFromJson(List<dynamic> data) {
   List<Topic> topics = new List();

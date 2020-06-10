@@ -1,4 +1,4 @@
-import 'package:covid_buster_lite/logic/models/quiz.dart';
+import 'package:drwhatson/logic/models/quiz.dart';
 import 'package:flutter/foundation.dart';
 
 class Topic {

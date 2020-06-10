@@ -1,7 +1,7 @@
-import 'package:covid_buster_lite/logic/models/quiz.dart';
-import 'package:covid_buster_lite/logic/models/topic.dart';
-import 'package:covid_buster_lite/services/service_locator.dart';
-import 'package:covid_buster_lite/services/topics/topic_service.dart';
+import 'package:drwhatson/logic/models/quiz.dart';
+import 'package:drwhatson/logic/models/topic.dart';
+import 'package:drwhatson/services/service_locator.dart';
+import 'package:drwhatson/services/topics/topic_service.dart';
 import 'package:expressions/expressions.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';

@@ -1,7 +1,7 @@
-import 'package:covid_buster_lite/logic/models/profile.dart';
-import 'package:covid_buster_lite/logic/view_models/profile_vm.dart';
-import 'package:covid_buster_lite/services/common/language_helper.dart';
-import 'package:covid_buster_lite/services/service_locator.dart';
+import 'package:drwhatson/logic/models/profile.dart';
+import 'package:drwhatson/logic/view_models/profile_vm.dart';
+import 'package:drwhatson/services/common/language_helper.dart';
+import 'package:drwhatson/services/service_locator.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
@@ -35,7 +35,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
             if (snap.hasError) return Text("Error: ${snap.error}");
             if (snap.hasData) {
               var profileData = snap.data;
-              _ageController.text = profileData.age > 0 ? profileData.age.toString() : "";
+              _ageController.text =
+                  profileData.age > 0 ? profileData.age.toString() : "";
               return Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: Container(
@@ -77,7 +78,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     width: 40.0,
                     height: 40.0,
                     child: const CircularProgressIndicator(
-                        backgroundColor: Colors.black, valueColor: AlwaysStoppedAnimation(Colors.red))),
+                        backgroundColor: Colors.black,
+                        valueColor: AlwaysStoppedAnimation(Colors.red))),
               );
             }
           }),
@@ -97,7 +99,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   children: <Widget>[
                     TextFormField(
                       autofocus: false,
-                      keyboardType: TextInputType.numberWithOptions(decimal: false, signed: false),
+                      keyboardType: TextInputType.numberWithOptions(
+                          decimal: false, signed: false),
                       controller: _ageController,
                       decoration: InputDecoration(
                         labelText: 'profile.age'.tr(),
@@ -149,7 +152,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Expanded(child: Text('profile.inmunosuppressedhigh'.tr())),
+                      Expanded(
+                          child: Text('profile.inmunosuppressedhigh'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -350,7 +354,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   value: LanguageHelper.kSpanishLocale,
                   groupValue: 0,
                   onChanged: (_) {
-                    EasyLocalization.of(context).locale = LanguageHelper.kSpanishLocale;
+                    EasyLocalization.of(context).locale =
+                        LanguageHelper.kSpanishLocale;
                     Navigator.pop(context);
                   }),
               Divider(height: 1),
@@ -359,7 +364,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   value: LanguageHelper.kEnglishLocale,
                   groupValue: 0,
                   onChanged: (_) {
-                    EasyLocalization.of(context).locale = LanguageHelper.kEnglishLocale;
+                    EasyLocalization.of(context).locale =
+                        LanguageHelper.kEnglishLocale;
                     Navigator.pop(context);
                   }),
             ],

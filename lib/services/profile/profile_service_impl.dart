@@ -1,6 +1,6 @@
-import 'package:covid_buster_lite/logic/models/profile.dart';
-import 'package:covid_buster_lite/services/common/database.dart';
-import 'package:covid_buster_lite/services/profile/profile_service.dart';
+import 'package:drwhatson/logic/models/profile.dart';
+import 'package:drwhatson/services/common/database.dart';
+import 'package:drwhatson/services/profile/profile_service.dart';
 import 'package:sembast/sembast.dart';
 import 'package:uuid/uuid.dart';
 

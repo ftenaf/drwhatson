@@ -2,9 +2,9 @@
 path_provider=D:\\tools\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider-1.6.10\\
 path_provider_linux=D:\\tools\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_linux-0.0.1+1\\
 path_provider_macos=D:\\tools\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_macos-0.0.4+3\\
-shared_preferences=D:\\tools\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences-0.5.7+2\\
-shared_preferences_macos=D:\\tools\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences_macos-0.0.1+8\\
-shared_preferences_web=D:\\tools\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences_web-0.1.2+5\\
-url_launcher=D:\\tools\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher-5.4.7\\
-url_launcher_macos=D:\\tools\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_macos-0.0.1+5\\
-url_launcher_web=D:\\tools\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_web-0.1.1+5\\
+shared_preferences=D:\\tools\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences-0.5.7+3\\
+shared_preferences_macos=D:\\tools\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences_macos-0.0.1+10\\
+shared_preferences_web=D:\\tools\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences_web-0.1.2+7\\
+url_launcher=D:\\tools\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher-5.4.10\\
+url_launcher_macos=D:\\tools\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_macos-0.0.1+7\\
+url_launcher_web=D:\\tools\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_web-0.1.1+6\\

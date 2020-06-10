@@ -1,228 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/start_quiz.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/start_quiz.dart" afterDir="false" />
-    </list>
+    <list default="true" id="8785fad2-5ca5-462b-8757-e919030f3943" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="WCR7N18B06004295" />
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Dart File" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="D:\dev\proyectos\flutter\covid_buster_lite\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1buWjw9TgzmEA9NYDU9VtzmIpcj" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_29_x86" />
+  <component name="ProjectId" id="1d9612CDn4TnBjeNHj1oqUKqTjg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DEBUGGABLE_DEVICE" value="Nexus_5X_API_29_x86 [emulator-5554]" />
-    <property name="DEBUGGABLE_PROCESS" value="com.example.covid_buster_lite" />
-    <property name="DEBUGGER_ID" value="Java" />
-    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/services/profile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\dev\proyectos\flutter\covid_buster_lite\lib\services\profile" />
-      <recent name="D:\dev\proyectos\flutter\covid_buster_lite\lib\logic\view_models" />
-      <recent name="D:\dev\proyectos\flutter\covid_buster_lite\assets\data" />
-    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="" />
-      <created>1589482597593</created>
+      <changelist id="8785fad2-5ca5-462b-8757-e919030f3943" name="Default Changelist" comment="" />
+      <created>1591824742566</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1589482597593</updated>
+      <updated>1591824742566</updated>
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="954" y="445" key="#Plugins" timestamp="1591383225203">
+    <state width="2454" height="413" key="GridCell.Tab.0.bottom" timestamp="1591825211547">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="954" y="445" key="#Plugins/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591383225203" />
-    <state x="817" y="441" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591383135952">
+    <state width="2454" height="413" key="GridCell.Tab.0.bottom/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591825211547" />
+    <state width="2454" height="413" key="GridCell.Tab.0.center" timestamp="1591825211547">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="817" y="441" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591383135952" />
-    <state x="554" y="436" key="#com.intellij.ide.util.MemberChooser" timestamp="1591724144529">
+    <state width="2454" height="413" key="GridCell.Tab.0.center/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591825211547" />
+    <state width="2454" height="413" key="GridCell.Tab.0.left" timestamp="1591825211547">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="554" y="436" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591724144529" />
-    <state x="284" y="477" key="#xdebugger.XInspectDialog" timestamp="1591815799700">
+    <state width="2454" height="413" key="GridCell.Tab.0.left/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591825211547" />
+    <state width="2454" height="413" key="GridCell.Tab.0.right" timestamp="1591825211547">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="284" y="477" key="#xdebugger.XInspectDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591815799700" />
-    <state x="396" y="318" key="CommitChangelistDialog2" timestamp="1591630404896">
+    <state width="2454" height="413" key="GridCell.Tab.0.right/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591825211547" />
+    <state x="444" y="544" key="com.intellij.ide.util.TipDialog" timestamp="1591824752781">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="396" y="318" key="CommitChangelistDialog2/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591630404896" />
-    <state width="472" height="466" key="DebuggerActiveHint" timestamp="1591638740531">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state width="472" height="466" key="DebuggerActiveHint/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591638740531" />
-    <state width="1312" height="513" key="GridCell.Tab.0.bottom" timestamp="1591820385544">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state width="1312" height="513" key="GridCell.Tab.0.bottom/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591820385544" />
-    <state width="1312" height="513" key="GridCell.Tab.0.center" timestamp="1591820385544">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state width="1312" height="513" key="GridCell.Tab.0.center/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591820385544" />
-    <state width="1312" height="513" key="GridCell.Tab.0.left" timestamp="1591820385544">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state width="1312" height="513" key="GridCell.Tab.0.left/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591820385544" />
-    <state width="1312" height="513" key="GridCell.Tab.0.right" timestamp="1591820385544">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state width="1312" height="513" key="GridCell.Tab.0.right/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591820385544" />
-    <state x="333" y="457" key="Vcs.Push.Dialog.v2" timestamp="1591810452359">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state x="333" y="457" key="Vcs.Push.Dialog.v2/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591810452359" />
-    <state width="631" height="723" key="XDebugger.FullValuePopup" timestamp="1591639306939">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state width="631" height="723" key="XDebugger.FullValuePopup/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591639306939" />
-    <state x="710" y="320" width="1302" height="932" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1591785868601">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state x="710" y="320" width="1302" height="932" key="com.android.tools.idea.avdmanager.AvdListDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591785868601" />
-    <state x="155" y="100" width="1171" height="1247" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591723434710">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state x="155" y="100" width="1171" height="1247" key="com.intellij.history.integration.ui.views.FileHistoryDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591723434710" />
-    <state x="1057" y="610" key="com.intellij.ide.util.TipDialog" timestamp="1591785838103">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state x="1057" y="610" key="com.intellij.ide.util.TipDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591785838103" />
-    <state x="380" y="335" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591724132553">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state x="380" y="335" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591724132553" />
-    <state x="309" y="460" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591607578917">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state x="309" y="460" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591607578917" />
-    <state x="380" y="455" width="981" height="895" key="find.popup" timestamp="1591806024129">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state x="380" y="455" width="981" height="895" key="find.popup/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591806024129" />
-    <state x="401" y="344" width="672" height="677" key="run.anything.popup" timestamp="1591817763380">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state x="401" y="344" width="672" height="677" key="run.anything.popup/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591817763380" />
-    <state x="405" y="330" width="672" height="678" key="search.everywhere.popup" timestamp="1591808850985">
-      <screen x="62" y="0" width="2498" height="1440" />
-    </state>
-    <state x="405" y="330" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591808850985" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/logic/view_models/profile_vm.dart</url>
-          <line>7</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/services/profile/profile_service_impl.dart</url>
-          <line>7</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/services/profile/profile_service_impl.dart</url>
-          <line>23</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/ui/views/profile_screen.dart</url>
-          <line>15</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="Dart">
-          <url>file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/get_it-4.0.2/lib/get_it_impl.dart</url>
-          <line>237</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="Dart">
-          <url>file://D:/tools/flutter/.pub-cache/hosted/pub.dartlang.org/get_it-4.0.2/lib/get_it_impl.dart</url>
-          <line>278</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/services/profile/profile_service_impl.dart</url>
-          <line>14</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-      <default-breakpoints>
-        <breakpoint suspend="THREAD" type="dart-exception" />
-      </default-breakpoints>
-    </breakpoint-manager>
+    <state x="444" y="544" key="com.intellij.ide.util.TipDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591824752781" />
   </component>
 </project>

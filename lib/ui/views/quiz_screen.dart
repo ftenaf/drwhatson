@@ -1,14 +1,14 @@
 // Shared Data
 import 'dart:collection';
 
-import 'package:covid_buster_lite/logic/models/quiz.dart';
-import 'package:covid_buster_lite/logic/view_models/topics_vm.dart';
-import 'package:covid_buster_lite/services/service_locator.dart';
-import 'package:covid_buster_lite/ui/common/loader.dart';
-import 'package:covid_buster_lite/ui/common/progress.dart';
-import 'package:covid_buster_lite/ui/widgets/congrats_quiz.dart';
-import 'package:covid_buster_lite/ui/widgets/question_quiz.dart';
-import 'package:covid_buster_lite/ui/widgets/start_quiz.dart';
+import 'package:drwhatson/logic/models/quiz.dart';
+import 'package:drwhatson/logic/view_models/topics_vm.dart';
+import 'package:drwhatson/services/service_locator.dart';
+import 'package:drwhatson/ui/common/loader.dart';
+import 'package:drwhatson/ui/common/progress.dart';
+import 'package:drwhatson/ui/widgets/congrats_quiz.dart';
+import 'package:drwhatson/ui/widgets/question_quiz.dart';
+import 'package:drwhatson/ui/widgets/start_quiz.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -67,7 +67,8 @@ class QuizScreen extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (_) => QuizState(),
       child: FutureBuilder(
-        future: model.getQuiz(quizId, EasyLocalization.of(context).locale.toString()),
+        future: model.getQuiz(
+            quizId, EasyLocalization.of(context).locale.toString()),
         builder: (BuildContext context, AsyncSnapshot snap) {
           var state = Provider.of<QuizState>(context);
           if (!snap.hasData || snap.hasError) {
@@ -87,8 +88,10 @@ class QuizScreen extends StatelessWidget {
                 physics: NeverScrollableScrollPhysics(),
                 scrollDirection: Axis.vertical,
                 controller: state.controller,
-                onPageChanged: (int idx) =>
-                    {state.retry = quiz.retry, state.progress = (idx / (quiz.questions.length + 1))},
+                onPageChanged: (int idx) => {
+                  state.retry = quiz.retry,
+                  state.progress = (idx / (quiz.questions.length + 1))
+                },
                 itemBuilder: (BuildContext context, int idx) {
                   if (idx == 0) {
                     return StartPage(quiz: quiz);

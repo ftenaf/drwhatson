@@ -1,11 +1,12 @@
-import 'package:covid_buster_lite/logic/models/profile.dart';
-import 'package:covid_buster_lite/services/profile/profile_service.dart';
-import 'package:covid_buster_lite/services/service_locator.dart';
+import 'package:drwhatson/logic/models/profile.dart';
+import 'package:drwhatson/services/profile/profile_service.dart';
+import 'package:drwhatson/services/service_locator.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 
 class ProfileViewModel with ChangeNotifier {
-  final ProfileService _service = serviceLocator.get(instanceName: 'ProfileService');
+  final ProfileService _service =
+      serviceLocator.get(instanceName: 'ProfileService');
   Profile _profile;
 
   Future<Profile> getProfile() async {

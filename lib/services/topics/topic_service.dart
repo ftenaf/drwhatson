@@ -1,5 +1,5 @@
-import 'package:covid_buster_lite/logic/models/quiz.dart';
-import 'package:covid_buster_lite/logic/models/topic.dart';
+import 'package:drwhatson/logic/models/quiz.dart';
+import 'package:drwhatson/logic/models/topic.dart';
 
 abstract class TopicService {
   Future<List<Topic>> getAllTopics(String locale);

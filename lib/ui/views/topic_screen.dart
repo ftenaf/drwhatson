@@ -1,6 +1,6 @@
-import 'package:covid_buster_lite/logic/models/topic.dart';
-import 'package:covid_buster_lite/ui/utils/image.dart';
-import 'package:covid_buster_lite/ui/views/quiz_screen.dart';
+import 'package:drwhatson/logic/models/topic.dart';
+import 'package:drwhatson/ui/utils/image.dart';
+import 'package:drwhatson/ui/views/quiz_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -26,7 +26,11 @@ class TopicScreen extends StatelessWidget {
             Text(
               topic.title,
               textAlign: TextAlign.right,
-              style: TextStyle(height: 2, fontSize: 40, fontWeight: FontWeight.bold, color: Colors.red[800]),
+              style: TextStyle(
+                  height: 2,
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.red[800]),
             ),
             QuizList(topic: topic)
           ])),

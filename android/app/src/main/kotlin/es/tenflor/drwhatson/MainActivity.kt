@@ -1,4 +1,4 @@
-package com.example.covid_buster_lite
+package es.tenflor.drwhatson
 
 import io.flutter.embedding.android.FlutterActivity
 

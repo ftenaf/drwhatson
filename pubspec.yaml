@@ -1,5 +1,5 @@
-name: covid_buster_lite
-description: A series of quizzes of different health topics to test your self about covid knowledge.
+name: drwhatson
+description: A series of quizzes of different health topics to test your self about health knowledge and to track your own health.
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  
+
   provider: any
   path_provider: ^1.6.9
   cupertino_icons: ^0.1.3
@@ -33,7 +33,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  
+
 
 flutter:
   uses-material-design: true

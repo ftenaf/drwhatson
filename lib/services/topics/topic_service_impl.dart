@@ -1,9 +1,9 @@
-import 'package:covid_buster_lite/logic/models/quiz.dart';
-import 'package:covid_buster_lite/logic/models/topic.dart';
-import 'package:covid_buster_lite/services/api/api_service.dart';
-import 'package:covid_buster_lite/services/service_locator.dart';
-import 'package:covid_buster_lite/services/storage/storage_service.dart';
-import 'package:covid_buster_lite/services/topics/topic_service.dart';
+import 'package:drwhatson/logic/models/quiz.dart';
+import 'package:drwhatson/logic/models/topic.dart';
+import 'package:drwhatson/services/api/api_service.dart';
+import 'package:drwhatson/services/service_locator.dart';
+import 'package:drwhatson/services/storage/storage_service.dart';
+import 'package:drwhatson/services/topics/topic_service.dart';
 
 class TopicServiceImpl implements TopicService {
   ApiService _apiService = serviceLocator<ApiService>();

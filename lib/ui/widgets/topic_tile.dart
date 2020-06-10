@@ -1,6 +1,6 @@
-import 'package:covid_buster_lite/logic/models/topic.dart';
-import 'package:covid_buster_lite/ui/utils/image.dart';
-import 'package:covid_buster_lite/ui/views/topic_screen.dart';
+import 'package:drwhatson/logic/models/topic.dart';
+import 'package:drwhatson/ui/utils/image.dart';
+import 'package:drwhatson/ui/views/topic_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -45,7 +45,10 @@ class TopicTile extends StatelessWidget {
                             child: Text(
                           topic.title,
                           style: TextStyle(
-                              height: 1.2, fontWeight: FontWeight.bold, fontSize: 40, color: Colors.grey[200]),
+                              height: 1.2,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 40,
+                              color: Colors.grey[200]),
                           overflow: TextOverflow.fade,
                           softWrap: false,
                         )),

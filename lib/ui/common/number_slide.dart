@@ -1,4 +1,4 @@
-import 'package:covid_buster_lite/logic/models/quiz.dart';
+import 'package:drwhatson/logic/models/quiz.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -7,7 +7,10 @@ class NumberSlider extends StatefulWidget {
   final VoidCallback onNumberSelected;
   final Function(int) onNumberChange;
 
-  NumberSlider({@required this.answer, @required this.onNumberChange, this.onNumberSelected});
+  NumberSlider(
+      {@required this.answer,
+      @required this.onNumberChange,
+      this.onNumberSelected});
 
   @override
   _NumberSliderState createState() => _NumberSliderState();

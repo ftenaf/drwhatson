@@ -1,4 +1,4 @@
-import 'package:covid_buster_lite/logic/models/profile.dart';
+import 'package:drwhatson/logic/models/profile.dart';
 
 abstract class ProfileService {
   Future<int> createProfile();

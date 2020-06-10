@@ -1,4 +1,4 @@
-# covid_buster_lite
+# Doctor Whatson
 Flutter Application to make quizzes based on different health related topics, especially on Covid-19
 
 ![Pagina principal](doc/img/ui.gif)

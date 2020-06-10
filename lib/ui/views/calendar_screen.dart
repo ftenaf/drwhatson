@@ -53,17 +53,16 @@ class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStat
     'Diarrea',
     'Dificultad para respirar',
     'Picor de ojos (conjuntivitis)',
-    'Asma',
-    'Sintomas prolongados y persistentes',
-    'Duración máxima de 15 días'
+    'Asma'
   ];
 
   List _items;
+  DateTime _selectedDay;
   @override
   void initState() {
     super.initState();
     _items = _list.toList();
-    final _selectedDay = DateTime.now();
+    _selectedDay = DateTime.now();
 
     _events = {
       _selectedDay.subtract(Duration(days: 30)): ['Event A0', 'Event B0', 'Event C0'],
@@ -104,6 +103,7 @@ class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStat
   void _onDaySelected(DateTime day, List events) {
     print('CALLBACK: _onDaySelected');
     setState(() {
+      _selectedDay = day;
       _selectedEvents = events;
     });
   }
@@ -128,8 +128,8 @@ class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStat
           _buildTableCalendar(),
           //_buildTableCalendarWithBuilders(),
           const SizedBox(height: 8.0),
-          _buildButtons(),
-          const SizedBox(height: 8.0),
+          /*_buildButtons(),
+          const SizedBox(height: 8.0),*/
           Expanded(child: _buildEventList()),
         ],
       ),
@@ -150,7 +150,14 @@ class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStat
       calendarController: _calendarController,
       events: _events,
       holidays: _holidays,
+      initialSelectedDay: DateTime.now(),
       startingDayOfWeek: StartingDayOfWeek.monday,
+      initialCalendarFormat: CalendarFormat.twoWeeks,
+      availableCalendarFormats: const {
+        CalendarFormat.month: 'Mes',
+        CalendarFormat.twoWeeks: '2 Semanas',
+        CalendarFormat.week: 'Semanal',
+      },
       calendarStyle: CalendarStyle(
         selectedColor: Colors.deepOrange[400],
         todayColor: Colors.deepOrange[200],
@@ -167,55 +174,6 @@ class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStat
       onDaySelected: _onDaySelected,
       onVisibleDaysChanged: _onVisibleDaysChanged,
       onCalendarCreated: _onCalendarCreated,
-    );
-  }
-
-  Widget _buildButtons() {
-    final dateTime = _events.keys.elementAt(_events.length - 2);
-
-    return Column(
-      children: <Widget>[
-        Row(
-          mainAxisSize: MainAxisSize.max,
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: <Widget>[
-            RaisedButton(
-              child: Text('Month'),
-              onPressed: () {
-                setState(() {
-                  _calendarController.setCalendarFormat(CalendarFormat.month);
-                });
-              },
-            ),
-            RaisedButton(
-              child: Text('2 weeks'),
-              onPressed: () {
-                setState(() {
-                  _calendarController.setCalendarFormat(CalendarFormat.twoWeeks);
-                });
-              },
-            ),
-            RaisedButton(
-              child: Text('Week'),
-              onPressed: () {
-                setState(() {
-                  _calendarController.setCalendarFormat(CalendarFormat.week);
-                });
-              },
-            ),
-          ],
-        ),
-        /* const SizedBox(height: 8.0),
-        RaisedButton(
-          child: Text('Set day ${dateTime.day}-${dateTime.month}-${dateTime.year}'),
-          onPressed: () {
-            _calendarController.setSelectedDay(
-              DateTime(dateTime.year, dateTime.month, dateTime.day),
-              runCallback: true,
-            );
-          },
-        ),*/
-      ],
     );
   }
 
@@ -241,19 +199,18 @@ class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStat
     double _fontSize = 25;
     showModalBottomSheet(
         context: context,
+        backgroundColor: Colors.blue[400],
         builder: (BuildContext context) {
           return ListView(shrinkWrap: true, padding: const EdgeInsets.all(4.0), children: <Widget>[
             RaisedButton(
-                child: Text('Add'),
+                child: Icon(Icons.add),
                 onPressed: () {
                   Navigator.pop(context);
                 }),
             Tags(
-                //key: _tagStateKey,
                 symmetry: true,
                 columns: 1,
                 horizontalScroll: false,
-                //verticalDirection: VerticalDirection.up,
                 heightHorizontalScroll: 60 * (_fontSize / 14),
                 textField: TagsTextField(
                   autofocus: false,
@@ -285,18 +242,11 @@ class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStat
                     index: index,
                     title: item,
                     pressEnabled: true,
-                    activeColor: Colors.blueGrey[600],
+                    activeColor: Colors.blue[800],
                     singleItem: false,
-                    splashColor: Colors.green,
+                    color: Colors.blue[100],
+                    splashColor: Colors.blue,
                     combine: ItemTagsCombine.withTextBefore,
-                    removeButton: ItemTagsRemoveButton(
-                      onRemoved: () {
-                        setState(() {
-                          _items.removeAt(index);
-                        });
-                        return true;
-                      },
-                    ),
                     textScaleFactor: utf8.encode(item.substring(0, 1)).length > 2 ? 0.8 : 1,
                     textStyle: TextStyle(
                       fontSize: _fontSize,

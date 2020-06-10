@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb9210d7-b9d2-4cce-87a0-a917fc221e6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/img/covid19-infographic-360x593.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/img/light_cough.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/img/light_fever.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/img/light_tiredness.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/views/calendar_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/calendar_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/views/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/home_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/views/topic_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/add_calendar_data.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/topic_tile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/topic_tile.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,10 +139,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state width="1312" height="441" key="GridCell.Tab.0.right/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591803674505" />
-    <state x="333" y="457" key="Vcs.Push.Dialog.v2" timestamp="1591723589728">
+    <state x="333" y="457" key="Vcs.Push.Dialog.v2" timestamp="1591804717994">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="333" y="457" key="Vcs.Push.Dialog.v2/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591723589728" />
+    <state x="333" y="457" key="Vcs.Push.Dialog.v2/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591804717994" />
     <state width="631" height="723" key="XDebugger.FullValuePopup" timestamp="1591639306939">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>

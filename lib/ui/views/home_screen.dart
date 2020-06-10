@@ -66,22 +66,4 @@ class _TopicsScreenState extends State<TopicsScreen> {
           }),
     );
   }
-
-  topicList() {
-    return ListView.builder(
-      itemCount: model.topics.length,
-      itemBuilder: (context, index) {
-        return Card(
-          child: ListTile(
-            leading: SizedBox(
-              width: 60,
-              child: Center(child: Text('${model.topics[index].id}')),
-            ),
-            title: Center(child: Text(model.topics[index].title)),
-            subtitle: Center(child: Text(model.topics[index].description)),
-          ),
-        );
-      },
-    );
-  }
 }

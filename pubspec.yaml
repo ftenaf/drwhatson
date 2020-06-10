@@ -27,6 +27,7 @@ dependencies:
   flare_flutter:
   uuid: 2.0.4
   table_calendar: ^2.2.3
+  flutter_tags: ^0.4.8+2
   #shimmer: 1.1.1 doesnt work for web
 
 dev_dependencies:

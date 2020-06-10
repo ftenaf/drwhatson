@@ -1,7 +1,9 @@
-import 'package:covid_buster_lite/ui/widgets/add_calendar_data.dart';
+import 'dart:convert';
+
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_tags/flutter_tags.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 final Map<DateTime, List> _holidays = {
@@ -25,10 +27,42 @@ class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStat
   List _selectedEvents;
   AnimationController _animationController;
   CalendarController _calendarController;
+  final List<String> _list = [
+    'Fatiga',
+    'Estornudos',
+    'Perdida de olfato',
+    'Perdida de gusto',
+    'Congestion Nasal Intensa',
+    'Mucosidad',
+    'Mucosidad transparente',
+    'Mucosidad amarilla o verde',
+    'Picor de nariz intenso',
+    'Picor de nariz leve',
+    'Taponamiento nasal',
+    'Decimas de fiebre',
+    'Fiebre Alta',
+    'Fiebre',
+    'Tos Productiva',
+    'Tos Seca',
+    'Dolor de garganta',
+    'Dolor de pecho',
+    'Dolor de garganta',
+    'Dolor muscular',
+    'Dolor abdominal',
+    'Dolor de cabeza',
+    'Diarrea',
+    'Dificultad para respirar',
+    'Picor de ojos (conjuntivitis)',
+    'Asma',
+    'Sintomas prolongados y persistentes',
+    'Duración máxima de 15 días'
+  ];
 
+  List _items;
   @override
   void initState() {
     super.initState();
+    _items = _list.toList();
     final _selectedDay = DateTime.now();
 
     _events = {
@@ -101,7 +135,8 @@ class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStat
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
-          await Navigator.push(context, MaterialPageRoute(builder: (context) => AddCalendarData()));
+          _bottomSheet(context);
+          //await Navigator.push(context, MaterialPageRoute(builder: (context) => AddCalendarData()));
         },
         child: Icon(Icons.add),
       ),
@@ -135,131 +170,6 @@ class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStat
     );
   }
 
-/*
-
-  Widget _buildTableCalendarWithBuilders() {
-    return TableCalendar(
-      locale: EasyLocalization.of(context).locale.toString(),
-      calendarController: _calendarController,
-      events: _events,
-      holidays: _holidays,
-      initialCalendarFormat: CalendarFormat.month,
-      formatAnimation: FormatAnimation.slide,
-      startingDayOfWeek: StartingDayOfWeek.sunday,
-      availableGestures: AvailableGestures.all,
-      availableCalendarFormats: const {
-        CalendarFormat.month: '',
-        CalendarFormat.week: '',
-      },
-      calendarStyle: CalendarStyle(
-        outsideDaysVisible: false,
-        weekendStyle: TextStyle().copyWith(color: Colors.blue[800]),
-        holidayStyle: TextStyle().copyWith(color: Colors.blue[800]),
-      ),
-      daysOfWeekStyle: DaysOfWeekStyle(
-        weekendStyle: TextStyle().copyWith(color: Colors.blue[600]),
-      ),
-      headerStyle: HeaderStyle(
-        centerHeaderTitle: true,
-        formatButtonVisible: false,
-      ),
-      builders: CalendarBuilders(
-        selectedDayBuilder: (context, date, _) {
-          return FadeTransition(
-            opacity: Tween(begin: 0.0, end: 1.0).animate(_animationController),
-            child: Container(
-              margin: const EdgeInsets.all(4.0),
-              padding: const EdgeInsets.only(top: 5.0, left: 6.0),
-              color: Colors.deepOrange[300],
-              width: 100,
-              height: 100,
-              child: Text(
-                '${date.day}',
-                style: TextStyle().copyWith(fontSize: 16.0),
-              ),
-            ),
-          );
-        },
-        todayDayBuilder: (context, date, _) {
-          return Container(
-            margin: const EdgeInsets.all(4.0),
-            padding: const EdgeInsets.only(top: 5.0, left: 6.0),
-            color: Colors.amber[400],
-            width: 100,
-            height: 100,
-            child: Text(
-              '${date.day}',
-              style: TextStyle().copyWith(fontSize: 16.0),
-            ),
-          );
-        },
-        markersBuilder: (context, date, events, holidays) {
-          final children = <Widget>[];
-
-          if (events.isNotEmpty) {
-            children.add(
-              Positioned(
-                right: 1,
-                bottom: 1,
-                child: _buildEventsMarker(date, events),
-              ),
-            );
-          }
-
-          if (holidays.isNotEmpty) {
-            children.add(
-              Positioned(
-                right: -2,
-                top: -2,
-                child: _buildHolidaysMarker(),
-              ),
-            );
-          }
-
-          return children;
-        },
-      ),
-      onDayLongPressed: (date, events) {
-        _onDaySelected(date, events);
-        _animationController.forward(from: 0.0);
-      },
-      onVisibleDaysChanged: _onVisibleDaysChanged,
-      onCalendarCreated: _onCalendarCreated,
-    );
-  }
-
-  Widget _buildEventsMarker(DateTime date, List events) {
-    return AnimatedContainer(
-      duration: const Duration(milliseconds: 300),
-      decoration: BoxDecoration(
-        shape: BoxShape.rectangle,
-        color: _calendarController.isSelected(date)
-            ? Colors.brown[500]
-            : _calendarController.isToday(date) ? Colors.brown[300] : Colors.blue[400],
-      ),
-      width: 16.0,
-      height: 16.0,
-      child: Center(
-        child: Text(
-          '${events.length}',
-          style: TextStyle().copyWith(
-            color: Colors.white,
-            fontSize: 12.0,
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildHolidaysMarker() {
-    return Icon(
-      Icons.add_box,
-      size: 20.0,
-      color: Colors.blueGrey[800],
-    );
-  }
-
-*/
   Widget _buildButtons() {
     final dateTime = _events.keys.elementAt(_events.length - 2);
 
@@ -325,5 +235,75 @@ class _CalendarScreenState extends State<CalendarScreen> with TickerProviderStat
               ))
           .toList(),
     );
+  }
+
+  _bottomSheet(BuildContext context) {
+    double _fontSize = 25;
+    showModalBottomSheet(
+        context: context,
+        builder: (BuildContext context) {
+          return ListView(shrinkWrap: true, padding: const EdgeInsets.all(4.0), children: <Widget>[
+            RaisedButton(
+                child: Text('Add'),
+                onPressed: () {
+                  Navigator.pop(context);
+                }),
+            Tags(
+                //key: _tagStateKey,
+                symmetry: true,
+                columns: 1,
+                horizontalScroll: false,
+                //verticalDirection: VerticalDirection.up,
+                heightHorizontalScroll: 60 * (_fontSize / 14),
+                textField: TagsTextField(
+                  autofocus: false,
+                  hintText: 'Etiqueta',
+                  duplicates: false,
+                  textStyle: TextStyle(
+                    fontSize: _fontSize,
+                    //height: 1
+                  ),
+                  enabled: true,
+                  constraintSuggestion: true,
+                  suggestions: [
+                    "One",
+                    "two",
+                    "android",
+                  ],
+                  onSubmitted: (String str) {
+                    setState(() {
+                      _items.add(str);
+                    });
+                  },
+                ),
+                itemCount: _items.length,
+                itemBuilder: (index) {
+                  final item = _items[index];
+
+                  return ItemTags(
+                    key: Key(index.toString()),
+                    index: index,
+                    title: item,
+                    pressEnabled: true,
+                    activeColor: Colors.blueGrey[600],
+                    singleItem: false,
+                    splashColor: Colors.green,
+                    combine: ItemTagsCombine.withTextBefore,
+                    removeButton: ItemTagsRemoveButton(
+                      onRemoved: () {
+                        setState(() {
+                          _items.removeAt(index);
+                        });
+                        return true;
+                      },
+                    ),
+                    textScaleFactor: utf8.encode(item.substring(0, 1)).length > 2 ? 0.8 : 1,
+                    textStyle: TextStyle(
+                      fontSize: _fontSize,
+                    ),
+                  );
+                })
+          ]);
+        });
   }
 }

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8785fad2-5ca5-462b-8757-e919030f3943" name="Default Changelist" comment="" />
+    <list default="true" id="8785fad2-5ca5-462b-8757-e919030f3943" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_29_x86" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1d9612CDn4TnBjeNHj1oqUKqTjg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,9 +56,9 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state width="2454" height="413" key="GridCell.Tab.0.right/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591825211547" />
-    <state x="444" y="544" key="com.intellij.ide.util.TipDialog" timestamp="1591824752781">
+    <state x="444" y="544" key="com.intellij.ide.util.TipDialog" timestamp="1591893816971">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="444" y="544" key="com.intellij.ide.util.TipDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591824752781" />
+    <state x="444" y="544" key="com.intellij.ide.util.TipDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591893816971" />
   </component>
 </project>

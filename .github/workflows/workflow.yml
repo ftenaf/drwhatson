@@ -10,20 +10,23 @@ jobs:
           java-version: '12.x'
       - uses: subosito/flutter-action@v1
         with:
+          flutter-version: '1.19.0-4.1.pre'
           channel: 'beta'
-        working-directory: ./drwhatson
+      - name: Upgrades flutter
+        run: flutter upgrade
+        working-directory: ./example
       - name: Enable Web
         run: flutter config --enable-web
-        working-directory: ./drwhatson
+        working-directory: ./example
       - name: Install dependencies
         run: flutter packages get
-        working-directory: ./drwhatson
+        working-directory: ./example
       - name: Build Web
         run: flutter build web
-        working-directory: ./drwhatson
+        working-directory: ./example
       - name: Deploy
         run: |
-          cd drwhatson/build/web
+          cd example/build/web
           git init
           git config user.name  "CI"
           git config user.email "flutter-ci@github.com"

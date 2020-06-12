@@ -24,7 +24,7 @@ const RESOURCES = {
 "assets/packages/easy_localization/i18n/ar-DZ.json": "acc0a8eebb2fcee312764600f7cc41ec",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/AssetManifest.json": "a624c020ef3dd2e1506fdf3f17ffca9f",
-"main.dart.js": "0a5905d23538206c1fd17c05553a33a8",
+"main.dart.js": "953ac0e2532a28c664def64a3aa1060a",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "337398b02e9bc0a492ac1aa3ce85f5b0",

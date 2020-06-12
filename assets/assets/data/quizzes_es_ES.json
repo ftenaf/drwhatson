@@ -1,0 +1,270 @@
+[
+  {
+    "id": "0",
+    "title": "Covid-19",
+    "description": "¿Salgo o me quedo en casa?",
+    "img": "covid.png",
+    "version": 0,
+    "date":"",
+    "changelog":"",
+    "quizzes": [
+      {
+        "id": "0",
+        "title": "GPS",
+        "description": "¿Salgo o me quedo en casa?",
+        "topic": "Covid-19",
+        "retry": 0,
+        "version": 0,
+        "results": [
+          {
+            "formula": "x > 5 && x < 10",
+            "result":"Adelante con el cambio de fase"
+          },
+          {
+            "formula":"x < 5",
+            "result": " Una semana de demora"
+          },
+          {
+            "formula":"x < 0",
+            "result":"Por debajo de 0 -> Una fase de demora"
+          }
+        ],
+        "questions": [
+          {
+            "id": "0",
+            "question": "¿Hace mas de 3 dias que no se publican nº test PCR realizados al día?",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Si",
+                "detail": "",
+                "correct": true,
+                "points": 0
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": -2
+              }
+            ]
+          },
+          {
+            "id": "1",
+            "question": "¿Se publica el nº técnicos contratados/empleados para trazar casos?",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Si",
+                "detail": "",
+                "correct": true,
+                "points": 0
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": -1
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "question": "¿Se publican los tiempos entre síntomas y confirmación/aislamiento?",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Si",
+                "detail": "",
+                "correct": true,
+                "points": 0
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": -1
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "question": "¿Cuántos tests al día son positivos del total realizados en porcentaje?",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "5",
+                "detail": "",
+                "correct": true,
+                "points": -1
+              },
+              {
+                "id": "1",
+                "value": "10",
+                "detail": "",
+                "correct": true,
+                "points": -2
+              }
+            ]
+          },
+          {
+            "id": "4",
+            "question": "¿Es mayor de 3 días el tiempo entre inicio síntomas y confirmación o Es mayor de 5 días el tiempo entre inicio síntomas y confirmación?",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Si",
+                "detail": "",
+                "correct": true,
+                "points": 0
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": -2
+              }
+            ]
+          },
+          {
+            "id": "5",
+            "question": "¿Cuántas personas nos han dicho de primera mano que ha llamado con síntomas y no le han cogido el teléfono o hecho el test?",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "0",
+                "detail": "",
+                "correct": true,
+                "type": "number",
+                "min": 0,
+                "max": 10,
+                "formula": "x*-1"
+              }
+            ]
+          },
+          {
+            "id": "6",
+            "question": "¿Cuántas personas nos han dicho de primera mano que han dado positivo y no ha tenido seguimiento ni cuarentenado sus contactos?",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "0",
+                "detail": "",
+                "correct": true,
+                "type": "number",
+                "min": 0,
+                "max": 10,
+                "formula": "x*-1"
+              }
+            ]
+          },
+          {
+            "id": "7",
+            "question": "¿Ha aumentado el número de casos en más de 3 días consecutivos?",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Si",
+                "detail": "",
+                "correct": true,
+                "points": -2
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": 0
+              }
+            ]
+          },
+          {
+            "id": "8",
+            "question": "¿Ha habido un brote en su provincia?",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Si",
+                "detail": "",
+                "correct": true,
+                "points": -5
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": 0
+              }
+            ]
+          },
+          {
+            "id": "9",
+            "question": "¿Ha habido un brote en una provincia cercana?",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Si",
+                "detail": "",
+                "correct": true,
+                "points": -2
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": 0
+              }
+            ]
+          },
+          {
+            "id": "10",
+            "question": "¿Ha leido noticias de nuevos contagios en residencias o centros sanitarios?",
+            "topic": "Fiabilidad del seguimiento de la epidemia",
+            "video": "",
+            "answers": [
+              {
+                "id": "0",
+                "value": "Si",
+                "detail": "",
+                "correct": true,
+                "points": -1
+              },
+              {
+                "id": "1",
+                "value": "No",
+                "detail": "",
+                "correct": true,
+                "points": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

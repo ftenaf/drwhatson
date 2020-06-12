@@ -1,0 +1,57 @@
+{
+    "homePage": {
+      "spanish": "Español",
+      "english": "Inglés",
+      "appBarTitle": "Doctor Whatson",
+      "hello": "Bienvenido",
+      "topics": "Temas",
+      "about": "Acerca de",
+      "profile": "Perfil",
+      "selectLanguage": "Seleccione su idioma",
+      "dialogTitleSelectLanguage": "Seleccione su idioma",
+      "back": "Volver"
+    },
+    "quiz":{
+      "start": "Empezar!",
+      "congrats": "Has completado el test {title} con un total de {totalPoints} puntos",
+      "result": "{result}",
+      "right": "Correcto!",
+      "wrong": "Error",
+      "markcompleted": " Marcar Finalizado!",
+      "onward": "Adelante!",
+      "tryagain": "Intentalo de nuevo",
+      "continue": "Continuar"
+    },
+    "profile": {
+      "points": "Ha obtenido {points} puntos.",
+      "continue": "Continuar",
+      "save": "Guardar",
+      "saved": "Guardado",
+      "veryHighRisk": "Riesgo Muy Alto",
+      "highRisk": "Riesgo Alto",
+      "moderatedRisk": "Riesgo Moderado",
+      "sex": "Sexo",
+      "age": "Edad",
+      "fat": "Obesidad",
+      "heartDisease": "Enfermo del corazón",
+      "hypertension": "Hipertension",
+      "epoc": "EPOC",
+      "smoker": "Fumador",
+      "chemotherapy": "Quimioterapia",
+      "autoinmune": "Autoinmune",
+      "inmunosuppressedhigh": "Inmuno Deprimido Alto",
+      "inmunosuppressedlow": "Inmuno Deprimido Bajo",
+      "likelypassed": "Anosmia, sin test pero parece haberlo pasado",
+      "publicService": "Servicios de cara al público",
+      "elderPartner": "Convive con Personas de alto riesgo",
+      "ig": "Inmunizado (IgG+)",
+      "others": "Otros"
+    },
+    "calendar": {
+      "title": "Diario",
+      "sintoma": "Síntoma",
+      "mes": "Mes",
+      "semanas": "2 Semanas",
+      "semanal": "Semanal"
+    }
+  }

@@ -1,0 +1,48 @@
+{
+  "homePage": {
+    "spanish": "Spanish",
+    "english": "English",
+    "appBarTitle": "Home Page DE",
+    "hello": "Welcome",
+    "topics": "Topics",
+    "about": "About",
+    "profile": "Profile",
+    "selectLanguage": "Select Language DE",
+    "dialogTitleSelectLanguage": "Select Language DE",
+    "back": "Back"
+  },
+  "quiz":{
+    "start": "Start Quiz!",
+    "congrats": "Congrats! You completed the {title} quiz with {totalPoints} points {result}",
+    "right": "Good Job!",
+    "wrong": "Wrong",
+    "markcompleted": " Mark Complete!",
+    "onward": "Onward!",
+    "tryagain": "Try Again",
+    "continue": "Continue"
+  },
+  "profile": {
+    "points": "{points} for you.",
+    "continue": "Continue",
+    "save": "Save",
+    "saved": "Saved",
+    "veryHighRisk": "Very High Risk",
+    "highRisk": "High Risk",
+    "moderatedRisk": "Moderated Risk",
+    "sex": "Sex",
+    "age": "Age",
+    "heartDisease": "Heart disease",
+    "hypertension": "Hypertension",
+    "epoc": "EPOC",
+    "smoker": "Smoker",
+    "chemotherapy": "Chemotherapy",
+    "autoinmune": "Autoinmune",
+    "inmunosuppressedhigh": "Inmunosuppressedhigh",
+    "inmunosuppressedlow": "inmunosuppressedlow",
+    "likelypassed": "Likely passed without test",
+    "publicService": "Public Service",
+    "elderPartner": "Live with high risk person",
+    "ig": "Inmunzied (IgG+)",
+    "others": "Others"
+  }
+}

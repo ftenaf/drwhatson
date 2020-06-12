@@ -6,8 +6,8 @@ Widget getImage(String url, BuildContext context, BoxFit fit) {
   if (url == 'default.png') {
     return Icon(Icons.school, size: 150);
   } else if (url.startsWith('icon')) {
-    int pos = url.indexOf(':') + 1;
-    return Icon(IconData(int.parse(url.substring(pos)), fontFamily: 'MaterialIcons'), size: 150);
+    /*int pos = url.indexOf(':') + 1;
+    return Icon(IconData(int.parse(url.substring(pos)), fontFamily: 'MaterialIcons'), size: 150);*/
   } else if (url.startsWith('http')) {
     return FadeInImage.memoryNetwork(
       placeholder: kTransparentImage,

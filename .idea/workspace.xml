@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8785fad2-5ca5-462b-8757-e919030f3943" name="Default Changelist" comment="">
+    <list default="true" id="8785fad2-5ca5-462b-8757-e919030f3943" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/release.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/utils/image.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/utils/image.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +19,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_29_x86" />
+  <component name="FavoritesManager">
+    <favorites_list name="Android">
+      <favorite_root url="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/android/app/build.gradle" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/android/settings.gradle" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -21,10 +36,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Properties" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.github/workflows" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\proyectos\flutter\drwhatson\.github\workflows" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,6 +61,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="374" y="447" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591983890509">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="374" y="447" key="#com.intellij.fileTypes.FileTypeChooser/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591983890509" />
+    <state x="404" y="315" key="CommitChangelistDialog2" timestamp="1591963880748">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="404" y="315" key="CommitChangelistDialog2/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591963880748" />
     <state width="2454" height="413" key="GridCell.Tab.0.bottom" timestamp="1591825211547">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -60,5 +89,9 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="444" y="544" key="com.intellij.ide.util.TipDialog/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591950011265" />
+    <state x="443" y="452" width="609" height="536" key="find.popup" timestamp="1591964049870">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="443" y="452" width="609" height="536" key="find.popup/62.0.2498.1440/3840.0.1024.1280@62.0.2498.1440" timestamp="1591964049870" />
   </component>
 </project>

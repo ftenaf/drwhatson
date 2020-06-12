@@ -10,6 +10,7 @@
 .svn/
 /android/key.properties
 /android/app/release
+/android/*.jk
 # IntelliJ related
 *.iml
 *.ipr

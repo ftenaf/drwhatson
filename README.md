@@ -1,5 +1,10 @@
 # Doctor Whatson
-Flutter Application to make quizzes based on different health related topics, especially on Covid-19
+
+Aplicación para autoevaluarse en diferentes temas de salud, entre ellos Covid-19. Tambien cuenta con un calendario para llevar un seguimiento de sintomas.
+
+La aplicación es completamente anónima y solo almacena datos en su dispositivo. 
+
+Puede ver una [demo para la versión web aquí](https://ftenaf.github.io/drwhatson/#/)
 
 ![Pagina principal](doc/img/ui.gif)
 

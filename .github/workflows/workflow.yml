@@ -3,6 +3,8 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      access_token: ${{secrets.ACCESS_TOKEN}}
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-java@v1
@@ -28,8 +30,8 @@ jobs:
           cd ./build/web
           git init
           git config --global hub.protocol https
-          git config user.name  "CI"
-          git config user.email "flutter-ci@github.com"
+          git config user.name  "ftenaf"
+          git config user.email "ftenaf@yahoo.es"
           git remote add secure-origin https://${{ secrets.ACCESS_TOKEN }}@github.com/ftenaf/drwhatson.git
           git checkout -b gh-pages
           git add .

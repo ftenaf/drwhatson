@@ -32,7 +32,7 @@ jobs:
           git config --global hub.protocol https
           git config user.name  "ftenaf"
           git config user.email "ftenaf@yahoo.es"
-          git remote add secure-origin https://${{ secrets.ACCESS_TOKEN }}@github.com/ftenaf/drwhatson.git
+          git remote add secure-origin https://${{ secrets.ACCESS_TOKEN }}:x-oauth-basic@github.com/ftenaf/drwhatson.git
           git checkout -b gh-pages
           git add .
           git commit -m "Updated docs"

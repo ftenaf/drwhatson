@@ -35,8 +35,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             if (snap.hasError) return Text("Error: ${snap.error}");
             if (snap.hasData) {
               var profileData = snap.data;
-              _ageController.text =
-                  profileData.age > 0 ? profileData.age.toString() : "";
+              _ageController.text = profileData.age > 0 ? profileData.age.toString() : "";
               return Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: Container(
@@ -78,8 +77,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     width: 40.0,
                     height: 40.0,
                     child: const CircularProgressIndicator(
-                        backgroundColor: Colors.black,
-                        valueColor: AlwaysStoppedAnimation(Colors.red))),
+                        backgroundColor: Colors.black, valueColor: AlwaysStoppedAnimation(Colors.red))),
               );
             }
           }),
@@ -99,8 +97,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   children: <Widget>[
                     TextFormField(
                       autofocus: false,
-                      keyboardType: TextInputType.numberWithOptions(
-                          decimal: false, signed: false),
+                      keyboardType: TextInputType.numberWithOptions(decimal: false, signed: false),
                       controller: _ageController,
                       decoration: InputDecoration(
                         labelText: 'profile.age'.tr(),
@@ -152,8 +149,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           });
                         },
                       ),
-                      Expanded(
-                          child: Text('profile.inmunosuppressedhigh'.tr())),
+                      Expanded(child: Text('profile.inmunosuppressedhigh'.tr())),
                     ]),
                     Row(children: [
                       Checkbox(
@@ -293,16 +289,22 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     ]),
                     Divider(),
                     RaisedButton(
+                      elevation: 4,
+                      padding: EdgeInsets.all(25.0),
+                      color: Colors.blue[600],
+                      hoverColor: Colors.orange,
+                      highlightColor: Colors.pink,
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                          side: BorderSide(color: Colors.grey[800], width: 1, style: BorderStyle.solid)),
                       child: Text(
                         'profile.save'.tr(),
                         style: TextStyle(fontSize: 30),
                       ),
-                      color: Colors.green,
                       onPressed: () async {
                         setState(() {
                           ageError = null;
                         });
-
                         if (_formKey.currentState.validate()) {
                           try {
                             profile.age = int.parse(_ageController.text);
@@ -330,12 +332,19 @@ class _ProfileScreenState extends State<ProfileScreen> {
               textAlign: TextAlign.center,
             ).tr(namedArgs: {'points': model.points.toString()}),
             Divider(height: 1),
-            FlatButton(
-              child: Text('profile.continue'.tr()),
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-            ),
+            RaisedButton(
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+                elevation: 4,
+                padding: EdgeInsets.all(25.0),
+                color: Colors.blue[600],
+                hoverColor: Colors.orange,
+                highlightColor: Colors.pink,
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0),
+                    side: BorderSide(color: Colors.grey[800], width: 1, style: BorderStyle.solid)),
+                child: Text('profile.continue'.tr())),
           ],
         );
       },
@@ -354,8 +363,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   value: LanguageHelper.kSpanishLocale,
                   groupValue: 0,
                   onChanged: (_) {
-                    EasyLocalization.of(context).locale =
-                        LanguageHelper.kSpanishLocale;
+                    EasyLocalization.of(context).locale = LanguageHelper.kSpanishLocale;
                     Navigator.pop(context);
                   }),
               Divider(height: 1),
@@ -364,8 +372,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   value: LanguageHelper.kEnglishLocale,
                   groupValue: 0,
                   onChanged: (_) {
-                    EasyLocalization.of(context).locale =
-                        LanguageHelper.kEnglishLocale;
+                    EasyLocalization.of(context).locale = LanguageHelper.kEnglishLocale;
                     Navigator.pop(context);
                   }),
             ],

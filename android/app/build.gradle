@@ -32,8 +32,7 @@ if (keystorePropertiesFile.exists()) {
     keystoreProperties.setProperty('storePassword', System.getenv('KEY_STORE_PASSWORD'));
     keystoreProperties.setProperty('keyPassword', System.getenv('KEY_PASSWORD'));
     keystoreProperties.setProperty('keyAlias', System.getenv('ALIAS'));
-    keystoreProperties.setProperty('storeFile', System.getenv('../key.jks'));
-    //keystoreProperties.setProperty('storeFile', System.getenv('KEY_PATH'));
+    keystoreProperties.setProperty('storeFile', System.getenv('KEY_PATH'));
 
 }
 
@@ -49,7 +48,6 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "es.tenflor.drwhatson"
         minSdkVersion 16
         targetSdkVersion 28
